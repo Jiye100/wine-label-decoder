@@ -221,7 +221,7 @@ img44
 grape: chardonnay
 region: santa barbara county
 country: california
-keyword: estate reserve
+keyword: reserve estate
 
 img45
 grape: pinot noir

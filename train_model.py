@@ -8,9 +8,11 @@ import joblib
 # Load the data
 ny_or_wa_df = pd.read_csv(r'dataset/NY_OR_WA_wines.csv')
 ca_df = pd.read_csv(r'dataset/CA_wines.csv')
+cl_arg_za_df = pd.read_csv(r'dataset/CL_ARG_ZA_wines.csv')
 
 # Combine datasets
-df = pd.concat([ny_or_wa_df, ca_df], ignore_index=True)
+df = pd.concat([ny_or_wa_df, ca_df, cl_arg_za_df], ignore_index=True)
+
 
 # Mapping categorical values to integers
 region = set(df['region'])

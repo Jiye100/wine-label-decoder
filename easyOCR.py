@@ -14,6 +14,7 @@ reader = easyocr.Reader(['en'])
 
 #Replace with your tesseract
 pytesseract.pytesseract.tesseract_cmd = r"/opt/homebrew/bin/tesseract"
+# pytesseract.pytesseract.tesseract_cmd = r"/opt/homebrew/bin/tesseract"
 
 def extract_text(file):
 

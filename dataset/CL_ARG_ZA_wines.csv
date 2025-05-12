@@ -1,376 +1,376 @@
 grape,region,vintage,estate,grape_law,region_law,vintage_law,country,designation
-chardonnay,chile,2023,True,0.85,0.85,0.85,chile,Gran Reserva
-merlot,chile,2016,False,0.85,0.85,0.85,chile,Reserva
-carmenere,chile,2016,True,0.85,0.85,0.85,chile,Reserva
-moscatel of alexandria,chile,2019,True,0.85,0.85,0.85,chile,Gran Reserva
-cabernet sauvignon,chile,2022,False,0.85,0.85,0.85,chile,Gran Reserva
-pais,chile,2017,True,0.85,0.85,0.85,chile,Reserva Especial
-merlot,chile,2017,True,0.85,0.85,0.85,chile,DO
-merlot,chile,2020,True,0.85,0.85,0.85,chile,Gran Reserva
-moscatel of alexandria,chile,2020,False,0.85,0.85,0.85,chile,Reserva Especial
-moscatel of alexandria,chile,2019,True,0.85,0.85,0.85,chile,DO
-carmenere,chile,2021,False,0.85,0.85,0.85,chile,Reserva
-moscatel of alexandria,chile,2023,True,0.85,0.85,0.85,chile,Reserva Especial
-carmenere,chile,2019,False,0.85,0.85,0.85,chile,DO
-merlot,chile,2022,False,0.85,0.85,0.85,chile,Reserva
-moscatel of alexandria,chile,2015,True,0.85,0.85,0.85,chile,Reserva
-carmenere,maipo valley,2020,True,0.85,0.85,0.85,chile,Reserva Especial
-carmenere,maipo valley,2017,True,0.85,0.85,0.85,chile,Reserva Especial
-carmenere,maipo valley,2022,True,0.85,0.85,0.85,chile,DO
-merlot,maipo valley,2018,False,0.85,0.85,0.85,chile,Gran Reserva
-carmenere,maipo valley,2021,True,0.85,0.85,0.85,chile,Reserva Especial
-chardonnay,maipo valley,2016,False,0.85,0.85,0.85,chile,Gran Reserva
-cabernet sauvignon,maipo valley,2019,True,0.85,0.85,0.85,chile,Gran Reserva
-pais,maipo valley,2024,True,0.85,0.85,0.85,chile,Reserva Especial
-pais,maipo valley,2015,True,0.85,0.85,0.85,chile,Reserva
-pais,maipo valley,2022,True,0.85,0.85,0.85,chile,Reserva Especial
-sauvignon blanc,maipo valley,2019,False,0.85,0.85,0.85,chile,Gran Reserva
-sauvignon blanc,maipo valley,2020,False,0.85,0.85,0.85,chile,DO
-cabernet sauvignon,maipo valley,2015,False,0.85,0.85,0.85,chile,Gran Reserva
-sauvignon blanc,maipo valley,2023,True,0.85,0.85,0.85,chile,Reserva Especial
-sauvignon blanc,maipo valley,2020,False,0.85,0.85,0.85,chile,Reserva Especial
-pais,rapel valley,2022,True,0.85,0.85,0.85,chile,DO
-pais,rapel valley,2021,True,0.85,0.85,0.85,chile,Gran Reserva
-sauvignon blanc,rapel valley,2015,True,0.85,0.85,0.85,chile,DO
-moscatel of alexandria,rapel valley,2019,False,0.85,0.85,0.85,chile,Reserva Especial
-carmenere,rapel valley,2019,True,0.85,0.85,0.85,chile,Gran Reserva
-moscatel of alexandria,rapel valley,2018,False,0.85,0.85,0.85,chile,Gran Reserva
-moscatel of alexandria,rapel valley,2023,True,0.85,0.85,0.85,chile,Reserva Especial
-cabernet sauvignon,rapel valley,2021,False,0.85,0.85,0.85,chile,Reserva Especial
-moscatel of alexandria,rapel valley,2022,False,0.85,0.85,0.85,chile,Reserva Especial
-cabernet sauvignon,rapel valley,2021,False,0.85,0.85,0.85,chile,Gran Reserva
-sauvignon blanc,rapel valley,2023,True,0.85,0.85,0.85,chile,Gran Reserva
-carmenere,rapel valley,2018,True,0.85,0.85,0.85,chile,Reserva
-pais,rapel valley,2018,False,0.85,0.85,0.85,chile,Gran Reserva
-chardonnay,rapel valley,2023,False,0.85,0.85,0.85,chile,DO
-merlot,rapel valley,2024,False,0.85,0.85,0.85,chile,DO
-merlot,colchagua valley,2015,True,0.85,0.85,0.85,chile,DO
-pais,colchagua valley,2021,True,0.85,0.85,0.85,chile,Gran Reserva
-pais,colchagua valley,2023,False,0.85,0.85,0.85,chile,DO
-sauvignon blanc,colchagua valley,2020,False,0.85,0.85,0.85,chile,Reserva
-moscatel of alexandria,colchagua valley,2024,False,0.85,0.85,0.85,chile,DO
-merlot,colchagua valley,2022,True,0.85,0.85,0.85,chile,DO
-chardonnay,colchagua valley,2019,False,0.85,0.85,0.85,chile,Reserva Especial
+merlot,chile,2015,False,0.85,0.85,0.85,chile,Gran Reserva
+sauvignon blanc,chile,2021,False,0.85,0.85,0.85,chile,Gran Reserva
+merlot,chile,2022,True,0.85,0.85,0.85,chile,DO
+sauvignon blanc,chile,2022,True,0.85,0.85,0.85,chile,Reserva
+chardonnay,chile,2016,True,0.85,0.85,0.85,chile,DO
+sauvignon blanc,chile,2017,True,0.85,0.85,0.85,chile,Reserva
+chardonnay,chile,2019,False,0.85,0.85,0.85,chile,DO
+cabernet sauvignon,chile,2018,False,0.85,0.85,0.85,chile,Reserva Especial
+moscatel of alexandria,chile,2018,False,0.85,0.85,0.85,chile,Reserva
+merlot,chile,2017,True,0.85,0.85,0.85,chile,Reserva
+cabernet sauvignon,chile,2022,True,0.85,0.85,0.85,chile,DO
+sauvignon blanc,chile,2015,False,0.85,0.85,0.85,chile,Reserva
+merlot,chile,2018,False,0.85,0.85,0.85,chile,DO
+pais,chile,2024,False,0.85,0.85,0.85,chile,DO
+merlot,chile,2021,True,0.85,0.85,0.85,chile,Gran Reserva
+chardonnay,maipo valley,2015,False,0.85,0.85,0.85,chile,DO
+merlot,maipo valley,2020,False,0.85,0.85,0.85,chile,Gran Reserva
+merlot,maipo valley,2015,False,0.85,0.85,0.85,chile,Reserva
+cabernet sauvignon,maipo valley,2016,False,0.85,0.85,0.85,chile,DO
+cabernet sauvignon,maipo valley,2020,False,0.85,0.85,0.85,chile,Reserva
+moscatel of alexandria,maipo valley,2021,False,0.85,0.85,0.85,chile,Reserva Especial
+cabernet sauvignon,maipo valley,2016,False,0.85,0.85,0.85,chile,Reserva Especial
+merlot,maipo valley,2019,True,0.85,0.85,0.85,chile,Reserva
+moscatel of alexandria,maipo valley,2020,False,0.85,0.85,0.85,chile,DO
+merlot,maipo valley,2022,True,0.85,0.85,0.85,chile,DO
+moscatel of alexandria,maipo valley,2022,True,0.85,0.85,0.85,chile,DO
+moscatel of alexandria,maipo valley,2023,True,0.85,0.85,0.85,chile,Reserva
+moscatel of alexandria,maipo valley,2021,False,0.85,0.85,0.85,chile,Gran Reserva
+cabernet sauvignon,maipo valley,2017,True,0.85,0.85,0.85,chile,Gran Reserva
+moscatel of alexandria,maipo valley,2023,False,0.85,0.85,0.85,chile,Reserva Especial
+moscatel of alexandria,rapel valley,2021,True,0.85,0.85,0.85,chile,DO
+merlot,rapel valley,2020,False,0.85,0.85,0.85,chile,DO
+merlot,rapel valley,2020,True,0.85,0.85,0.85,chile,Reserva Especial
+merlot,rapel valley,2015,False,0.85,0.85,0.85,chile,Gran Reserva
+cabernet sauvignon,rapel valley,2017,True,0.85,0.85,0.85,chile,DO
+pais,rapel valley,2024,False,0.85,0.85,0.85,chile,Reserva Especial
+pais,rapel valley,2020,False,0.85,0.85,0.85,chile,DO
+moscatel of alexandria,rapel valley,2015,False,0.85,0.85,0.85,chile,Reserva
+chardonnay,rapel valley,2022,False,0.85,0.85,0.85,chile,Gran Reserva
+merlot,rapel valley,2021,False,0.85,0.85,0.85,chile,DO
+cabernet sauvignon,rapel valley,2020,False,0.85,0.85,0.85,chile,DO
+pais,rapel valley,2016,True,0.85,0.85,0.85,chile,Reserva
+carmenere,rapel valley,2021,True,0.85,0.85,0.85,chile,Reserva Especial
+sauvignon blanc,rapel valley,2022,True,0.85,0.85,0.85,chile,Gran Reserva
+cabernet sauvignon,rapel valley,2016,False,0.85,0.85,0.85,chile,Gran Reserva
+merlot,colchagua valley,2020,True,0.85,0.85,0.85,chile,Gran Reserva
+merlot,colchagua valley,2023,False,0.85,0.85,0.85,chile,Reserva
 chardonnay,colchagua valley,2017,True,0.85,0.85,0.85,chile,Reserva
-carmenere,colchagua valley,2022,True,0.85,0.85,0.85,chile,Reserva Especial
-pais,colchagua valley,2024,True,0.85,0.85,0.85,chile,Reserva Especial
-moscatel of alexandria,colchagua valley,2016,True,0.85,0.85,0.85,chile,Gran Reserva
-merlot,colchagua valley,2022,False,0.85,0.85,0.85,chile,Reserva
-chardonnay,colchagua valley,2017,False,0.85,0.85,0.85,chile,Gran Reserva
-pais,colchagua valley,2021,False,0.85,0.85,0.85,chile,DO
-sauvignon blanc,colchagua valley,2016,False,0.85,0.85,0.85,chile,DO
-merlot,maule valley,2024,True,0.85,0.85,0.85,chile,Reserva Especial
-merlot,maule valley,2020,True,0.85,0.85,0.85,chile,DO
-cabernet sauvignon,maule valley,2022,False,0.85,0.85,0.85,chile,Reserva
-chardonnay,maule valley,2019,False,0.85,0.85,0.85,chile,Gran Reserva
-moscatel of alexandria,maule valley,2022,False,0.85,0.85,0.85,chile,Reserva
-carmenere,maule valley,2015,True,0.85,0.85,0.85,chile,Reserva
-moscatel of alexandria,maule valley,2021,True,0.85,0.85,0.85,chile,Reserva Especial
-merlot,maule valley,2024,False,0.85,0.85,0.85,chile,Gran Reserva
-carmenere,maule valley,2021,False,0.85,0.85,0.85,chile,Reserva
+carmenere,colchagua valley,2022,True,0.85,0.85,0.85,chile,Gran Reserva
+cabernet sauvignon,colchagua valley,2022,True,0.85,0.85,0.85,chile,Reserva Especial
+moscatel of alexandria,colchagua valley,2016,False,0.85,0.85,0.85,chile,DO
+pais,colchagua valley,2022,True,0.85,0.85,0.85,chile,Gran Reserva
+carmenere,colchagua valley,2022,False,0.85,0.85,0.85,chile,Reserva Especial
+chardonnay,colchagua valley,2019,False,0.85,0.85,0.85,chile,DO
+chardonnay,colchagua valley,2023,False,0.85,0.85,0.85,chile,Gran Reserva
+moscatel of alexandria,colchagua valley,2015,False,0.85,0.85,0.85,chile,DO
+merlot,colchagua valley,2019,True,0.85,0.85,0.85,chile,Gran Reserva
+chardonnay,colchagua valley,2018,False,0.85,0.85,0.85,chile,Gran Reserva
+chardonnay,colchagua valley,2020,True,0.85,0.85,0.85,chile,DO
+sauvignon blanc,colchagua valley,2024,False,0.85,0.85,0.85,chile,Gran Reserva
+chardonnay,maule valley,2023,False,0.85,0.85,0.85,chile,Reserva Especial
+chardonnay,maule valley,2023,False,0.85,0.85,0.85,chile,Gran Reserva
+pais,maule valley,2024,True,0.85,0.85,0.85,chile,Reserva Especial
+merlot,maule valley,2015,False,0.85,0.85,0.85,chile,Reserva Especial
+chardonnay,maule valley,2020,False,0.85,0.85,0.85,chile,DO
+sauvignon blanc,maule valley,2021,False,0.85,0.85,0.85,chile,Gran Reserva
+carmenere,maule valley,2020,True,0.85,0.85,0.85,chile,Reserva Especial
+carmenere,maule valley,2024,True,0.85,0.85,0.85,chile,DO
+carmenere,maule valley,2018,True,0.85,0.85,0.85,chile,Gran Reserva
+chardonnay,maule valley,2020,False,0.85,0.85,0.85,chile,DO
 carmenere,maule valley,2021,True,0.85,0.85,0.85,chile,Reserva Especial
-chardonnay,maule valley,2022,True,0.85,0.85,0.85,chile,Reserva
-cabernet sauvignon,maule valley,2024,False,0.85,0.85,0.85,chile,DO
-cabernet sauvignon,maule valley,2017,False,0.85,0.85,0.85,chile,Reserva
-sauvignon blanc,maule valley,2022,False,0.85,0.85,0.85,chile,DO
-pais,maule valley,2022,False,0.85,0.85,0.85,chile,DO
-sauvignon blanc,cachapoal valley,2024,True,0.85,0.85,0.85,chile,Reserva
-moscatel of alexandria,cachapoal valley,2017,False,0.85,0.85,0.85,chile,Gran Reserva
-pais,cachapoal valley,2021,False,0.85,0.85,0.85,chile,DO
-carmenere,cachapoal valley,2021,False,0.85,0.85,0.85,chile,Reserva
-carmenere,cachapoal valley,2019,False,0.85,0.85,0.85,chile,DO
-cabernet sauvignon,cachapoal valley,2024,False,0.85,0.85,0.85,chile,Reserva
-carmenere,cachapoal valley,2020,True,0.85,0.85,0.85,chile,Gran Reserva
+merlot,maule valley,2020,False,0.85,0.85,0.85,chile,Reserva Especial
+sauvignon blanc,maule valley,2019,True,0.85,0.85,0.85,chile,Gran Reserva
+pais,maule valley,2019,True,0.85,0.85,0.85,chile,Reserva
+cabernet sauvignon,maule valley,2023,False,0.85,0.85,0.85,chile,DO
+merlot,cachapoal valley,2021,False,0.85,0.85,0.85,chile,Reserva Especial
+moscatel of alexandria,cachapoal valley,2024,True,0.85,0.85,0.85,chile,Reserva
+merlot,cachapoal valley,2018,False,0.85,0.85,0.85,chile,Gran Reserva
+cabernet sauvignon,cachapoal valley,2021,True,0.85,0.85,0.85,chile,Reserva
+chardonnay,cachapoal valley,2017,False,0.85,0.85,0.85,chile,Reserva Especial
+merlot,cachapoal valley,2021,False,0.85,0.85,0.85,chile,Reserva Especial
+chardonnay,cachapoal valley,2023,True,0.85,0.85,0.85,chile,Reserva
+sauvignon blanc,cachapoal valley,2019,True,0.85,0.85,0.85,chile,DO
+merlot,cachapoal valley,2020,False,0.85,0.85,0.85,chile,Reserva
+merlot,cachapoal valley,2023,True,0.85,0.85,0.85,chile,Reserva
+pais,cachapoal valley,2017,False,0.85,0.85,0.85,chile,DO
+moscatel of alexandria,cachapoal valley,2015,True,0.85,0.85,0.85,chile,Gran Reserva
 pais,cachapoal valley,2019,False,0.85,0.85,0.85,chile,Gran Reserva
-moscatel of alexandria,cachapoal valley,2018,True,0.85,0.85,0.85,chile,DO
-pais,cachapoal valley,2021,False,0.85,0.85,0.85,chile,Gran Reserva
-merlot,cachapoal valley,2019,True,0.85,0.85,0.85,chile,Reserva
-merlot,cachapoal valley,2022,False,0.85,0.85,0.85,chile,Reserva Especial
-moscatel of alexandria,cachapoal valley,2017,False,0.85,0.85,0.85,chile,DO
-pais,cachapoal valley,2022,False,0.85,0.85,0.85,chile,Reserva Especial
-merlot,cachapoal valley,2019,False,0.85,0.85,0.85,chile,DO
-carmenere,limari valley,2017,True,0.85,0.85,0.85,chile,DO
-merlot,limari valley,2020,True,0.85,0.85,0.85,chile,DO
-moscatel of alexandria,limari valley,2023,True,0.85,0.85,0.85,chile,DO
-chardonnay,limari valley,2021,False,0.85,0.85,0.85,chile,DO
-carmenere,limari valley,2015,False,0.85,0.85,0.85,chile,DO
-pais,limari valley,2015,False,0.85,0.85,0.85,chile,DO
-chardonnay,limari valley,2016,True,0.85,0.85,0.85,chile,DO
-pais,limari valley,2024,True,0.85,0.85,0.85,chile,DO
-carmenere,limari valley,2021,False,0.85,0.85,0.85,chile,DO
-merlot,limari valley,2021,False,0.85,0.85,0.85,chile,DO
-merlot,limari valley,2017,True,0.85,0.85,0.85,chile,DO
-carmenere,limari valley,2022,False,0.85,0.85,0.85,chile,DO
-pais,limari valley,2021,True,0.85,0.85,0.85,chile,DO
-cabernet sauvignon,limari valley,2018,False,0.85,0.85,0.85,chile,DO
-pais,limari valley,2024,True,0.85,0.85,0.85,chile,DO
-cabernet sauvignon,curico valley,2018,False,0.85,0.85,0.85,chile,Reserva
-cabernet sauvignon,curico valley,2022,False,0.85,0.85,0.85,chile,DO
-pais,curico valley,2019,False,0.85,0.85,0.85,chile,DO
-pais,curico valley,2017,True,0.85,0.85,0.85,chile,Reserva Especial
+chardonnay,cachapoal valley,2022,False,0.85,0.85,0.85,chile,DO
+sauvignon blanc,cachapoal valley,2017,False,0.85,0.85,0.85,chile,Reserva
+sauvignon blanc,limari valley,2019,False,0.85,0.85,0.85,chile,DO
+moscatel of alexandria,limari valley,2016,False,0.85,0.85,0.85,chile,DO
+merlot,limari valley,2023,False,0.85,0.85,0.85,chile,DO
+chardonnay,limari valley,2018,False,0.85,0.85,0.85,chile,DO
+moscatel of alexandria,limari valley,2018,True,0.85,0.85,0.85,chile,DO
+carmenere,limari valley,2015,True,0.85,0.85,0.85,chile,DO
+pais,limari valley,2024,False,0.85,0.85,0.85,chile,DO
+carmenere,limari valley,2023,False,0.85,0.85,0.85,chile,DO
+carmenere,limari valley,2015,True,0.85,0.85,0.85,chile,DO
+carmenere,limari valley,2017,False,0.85,0.85,0.85,chile,DO
+cabernet sauvignon,limari valley,2017,False,0.85,0.85,0.85,chile,DO
+cabernet sauvignon,limari valley,2016,False,0.85,0.85,0.85,chile,DO
+carmenere,limari valley,2018,True,0.85,0.85,0.85,chile,DO
+moscatel of alexandria,limari valley,2017,True,0.85,0.85,0.85,chile,DO
+sauvignon blanc,limari valley,2019,True,0.85,0.85,0.85,chile,DO
+moscatel of alexandria,curico valley,2018,False,0.85,0.85,0.85,chile,Reserva
+merlot,curico valley,2015,False,0.85,0.85,0.85,chile,Reserva Especial
+merlot,curico valley,2017,False,0.85,0.85,0.85,chile,Reserva Especial
+cabernet sauvignon,curico valley,2021,False,0.85,0.85,0.85,chile,DO
+sauvignon blanc,curico valley,2015,False,0.85,0.85,0.85,chile,Gran Reserva
+merlot,curico valley,2016,False,0.85,0.85,0.85,chile,Gran Reserva
+carmenere,curico valley,2023,True,0.85,0.85,0.85,chile,Reserva
+sauvignon blanc,curico valley,2021,True,0.85,0.85,0.85,chile,DO
+moscatel of alexandria,curico valley,2018,True,0.85,0.85,0.85,chile,Reserva Especial
+sauvignon blanc,curico valley,2022,True,0.85,0.85,0.85,chile,Gran Reserva
+pais,curico valley,2019,True,0.85,0.85,0.85,chile,Reserva
+cabernet sauvignon,curico valley,2015,True,0.85,0.85,0.85,chile,DO
+pais,curico valley,2015,True,0.85,0.85,0.85,chile,DO
+cabernet sauvignon,curico valley,2021,True,0.85,0.85,0.85,chile,DO
 pais,curico valley,2017,True,0.85,0.85,0.85,chile,Reserva
-pais,curico valley,2024,False,0.85,0.85,0.85,chile,Reserva Especial
-pais,curico valley,2023,True,0.85,0.85,0.85,chile,Reserva Especial
-sauvignon blanc,curico valley,2019,True,0.85,0.85,0.85,chile,Reserva
-pais,curico valley,2017,True,0.85,0.85,0.85,chile,Gran Reserva
-carmenere,curico valley,2017,False,0.85,0.85,0.85,chile,Reserva Especial
-sauvignon blanc,curico valley,2022,False,0.85,0.85,0.85,chile,Gran Reserva
-pais,curico valley,2015,True,0.85,0.85,0.85,chile,Reserva Especial
-carmenere,curico valley,2018,False,0.85,0.85,0.85,chile,Reserva Especial
-sauvignon blanc,curico valley,2018,True,0.85,0.85,0.85,chile,Gran Reserva
-merlot,curico valley,2017,True,0.85,0.85,0.85,chile,Gran Reserva
-sauvignon blanc,elqui,2019,False,0.85,0.85,0.85,chile,Reserva Especial
-merlot,elqui,2018,False,0.85,0.85,0.85,chile,Reserva Especial
-carmenere,elqui,2017,False,0.85,0.85,0.85,chile,Reserva Especial
-pais,elqui,2016,True,0.85,0.85,0.85,chile,Gran Reserva
-cabernet sauvignon,elqui,2017,False,0.85,0.85,0.85,chile,DO
-moscatel of alexandria,elqui,2015,True,0.85,0.85,0.85,chile,Reserva Especial
-cabernet sauvignon,elqui,2017,True,0.85,0.85,0.85,chile,Gran Reserva
-chardonnay,elqui,2015,False,0.85,0.85,0.85,chile,Gran Reserva
-chardonnay,elqui,2015,True,0.85,0.85,0.85,chile,Reserva Especial
-merlot,elqui,2019,True,0.85,0.85,0.85,chile,Reserva Especial
-chardonnay,elqui,2018,True,0.85,0.85,0.85,chile,Reserva
-carmenere,elqui,2023,False,0.85,0.85,0.85,chile,Reserva Especial
-carmenere,elqui,2024,False,0.85,0.85,0.85,chile,Gran Reserva
-moscatel of alexandria,elqui,2020,False,0.85,0.85,0.85,chile,Reserva Especial
-carmenere,elqui,2015,True,0.85,0.85,0.85,chile,Gran Reserva
-merlot,limari,2017,True,0.85,0.85,0.85,chile,Reserva
-pais,limari,2015,False,0.85,0.85,0.85,chile,Gran Reserva
-cabernet sauvignon,limari,2019,True,0.85,0.85,0.85,chile,Reserva
-cabernet sauvignon,limari,2019,True,0.85,0.85,0.85,chile,Gran Reserva
-merlot,limari,2020,False,0.85,0.85,0.85,chile,Reserva
-carmenere,limari,2021,False,0.85,0.85,0.85,chile,DO
-moscatel of alexandria,limari,2015,True,0.85,0.85,0.85,chile,Reserva
-cabernet sauvignon,limari,2017,True,0.85,0.85,0.85,chile,Reserva
-sauvignon blanc,limari,2019,True,0.85,0.85,0.85,chile,Reserva
-sauvignon blanc,limari,2024,True,0.85,0.85,0.85,chile,DO
-moscatel of alexandria,limari,2018,False,0.85,0.85,0.85,chile,DO
-carmenere,limari,2019,False,0.85,0.85,0.85,chile,Reserva
-cabernet sauvignon,limari,2024,True,0.85,0.85,0.85,chile,Reserva
-cabernet sauvignon,limari,2015,True,0.85,0.85,0.85,chile,Reserva Especial
-carmenere,limari,2023,True,0.85,0.85,0.85,chile,Reserva
-pais,casablanca,2017,True,0.85,0.85,0.85,chile,DO
-pais,casablanca,2015,False,0.85,0.85,0.85,chile,Reserva
-pais,casablanca,2015,True,0.85,0.85,0.85,chile,Reserva
-merlot,casablanca,2020,True,0.85,0.85,0.85,chile,Gran Reserva
-moscatel of alexandria,casablanca,2022,True,0.85,0.85,0.85,chile,DO
-sauvignon blanc,casablanca,2015,True,0.85,0.85,0.85,chile,Reserva Especial
-pais,casablanca,2015,True,0.85,0.85,0.85,chile,Reserva
-moscatel of alexandria,casablanca,2016,False,0.85,0.85,0.85,chile,DO
-sauvignon blanc,casablanca,2019,True,0.85,0.85,0.85,chile,Reserva
-sauvignon blanc,casablanca,2024,False,0.85,0.85,0.85,chile,Reserva Especial
-chardonnay,casablanca,2020,False,0.85,0.85,0.85,chile,Reserva Especial
-sauvignon blanc,casablanca,2016,False,0.85,0.85,0.85,chile,Reserva
-pais,casablanca,2023,True,0.85,0.85,0.85,chile,Gran Reserva
-pais,casablanca,2017,True,0.85,0.85,0.85,chile,Reserva
-pais,casablanca,2016,True,0.85,0.85,0.85,chile,Gran Reserva
-syrah,argentina,2015,False,0.85,0.85,0.0,argentina,IG
-malbec,argentina,2018,True,0.85,0.85,0.0,argentina,IG
-chardonnay,argentina,2021,True,0.85,0.85,0.0,argentina,IG
-torrontes riojano,argentina,2024,False,0.85,0.85,0.0,argentina,IG
-chardonnay,argentina,2020,True,0.85,0.85,0.0,argentina,IG
-bonarda,argentina,2015,False,0.85,0.85,0.0,argentina,IG
-shiraz,argentina,2015,False,0.85,0.85,0.0,argentina,IG
-sauvignon blanc,argentina,2015,False,0.85,0.85,0.0,argentina,IG
-syrah,argentina,2024,True,0.85,0.85,0.0,argentina,IG
-shiraz,argentina,2020,True,0.85,0.85,0.0,argentina,IG
-torrontes riojano,argentina,2018,False,0.85,0.85,0.0,argentina,IG
-syrah,argentina,2022,True,0.85,0.85,0.0,argentina,IG
-syrah,argentina,2018,False,0.85,0.85,0.0,argentina,IG
-bonarda,argentina,2016,True,0.85,0.85,0.0,argentina,IG
-shiraz,argentina,2017,True,0.85,0.85,0.0,argentina,IG
-cabernet sauvignon,mendoza,2022,True,0.85,0.85,0.0,argentina,IG
-chardonnay,mendoza,2016,True,0.85,0.85,0.0,argentina,IG
-shiraz,mendoza,2018,True,0.85,0.85,0.0,argentina,IG
-syrah,mendoza,2022,False,0.85,0.85,0.0,argentina,IG
-chenin blanc,mendoza,2024,False,0.85,0.85,0.0,argentina,IG
-sauvignon blanc,mendoza,2018,True,0.85,0.85,0.0,argentina,IG
-malbec,mendoza,2020,True,0.85,0.85,0.0,argentina,IG
-torrontes riojano,mendoza,2019,False,0.85,0.85,0.0,argentina,IG
-chardonnay,mendoza,2023,True,0.85,0.85,0.0,argentina,IG
-bonarda,mendoza,2023,False,0.85,0.85,0.0,argentina,IG
-malbec,mendoza,2019,False,0.85,0.85,0.0,argentina,IG
-cabernet sauvignon,mendoza,2016,False,0.85,0.85,0.0,argentina,IG
-torrontes riojano,mendoza,2017,True,0.85,0.85,0.0,argentina,IG
-cabernet sauvignon,mendoza,2020,False,0.85,0.85,0.0,argentina,IG
-torrontes,mendoza,2023,True,0.85,0.85,0.0,argentina,IG
-torrontes,san juan,2022,False,0.85,0.85,0.0,argentina,IG
-torrontes,san juan,2019,True,0.85,0.85,0.0,argentina,IG
-syrah,san juan,2022,False,0.85,0.85,0.0,argentina,IG
-bonarda,san juan,2020,False,0.85,0.85,0.0,argentina,IG
-malbec,san juan,2020,False,0.85,0.85,0.0,argentina,IG
-syrah,san juan,2016,False,0.85,0.85,0.0,argentina,IG
-chenin blanc,san juan,2019,False,0.85,0.85,0.0,argentina,IG
-sauvignon blanc,san juan,2023,True,0.85,0.85,0.0,argentina,IG
-chenin blanc,san juan,2023,False,0.85,0.85,0.0,argentina,IG
-shiraz,san juan,2018,True,0.85,0.85,0.0,argentina,IG
-shiraz,san juan,2019,True,0.85,0.85,0.0,argentina,IG
-sauvignon blanc,san juan,2021,False,0.85,0.85,0.0,argentina,IG
-syrah,san juan,2022,False,0.85,0.85,0.0,argentina,IG
-cabernet sauvignon,san juan,2019,False,0.85,0.85,0.0,argentina,IG
-shiraz,san juan,2017,True,0.85,0.85,0.0,argentina,IG
-chenin blanc,la rioja,2021,False,0.85,0.85,0.0,argentina,IG
-torrontes riojano,la rioja,2023,False,0.85,0.85,0.0,argentina,IG
-cabernet sauvignon,la rioja,2017,True,0.85,0.85,0.0,argentina,IG
-chardonnay,la rioja,2016,True,0.85,0.85,0.0,argentina,IG
-shiraz,la rioja,2022,True,0.85,0.85,0.0,argentina,IG
-chenin blanc,la rioja,2022,True,0.85,0.85,0.0,argentina,IG
-sauvignon blanc,la rioja,2015,True,0.85,0.85,0.0,argentina,IG
-torrontes,la rioja,2024,False,0.85,0.85,0.0,argentina,IG
-bonarda,la rioja,2016,True,0.85,0.85,0.0,argentina,IG
-cabernet sauvignon,la rioja,2019,True,0.85,0.85,0.0,argentina,IG
-shiraz,la rioja,2016,True,0.85,0.85,0.0,argentina,IG
-torrontes,la rioja,2019,False,0.85,0.85,0.0,argentina,IG
-chardonnay,la rioja,2021,False,0.85,0.85,0.0,argentina,IG
-syrah,la rioja,2021,True,0.85,0.85,0.0,argentina,IG
-torrontes riojano,la rioja,2024,False,0.85,0.85,0.0,argentina,IG
-syrah,san rafael,2022,True,0.85,1.0,0.0,argentina,DOC
-cabernet sauvignon,san rafael,2019,False,0.85,1.0,0.0,argentina,DOC
-syrah,san rafael,2017,False,0.85,1.0,0.0,argentina,DOC
-malbec,san rafael,2015,True,0.85,1.0,0.0,argentina,DOC
-cabernet sauvignon,san rafael,2016,False,0.85,1.0,0.0,argentina,DOC
-chenin blanc,san rafael,2017,True,0.85,1.0,0.0,argentina,DOC
-shiraz,san rafael,2024,True,0.85,1.0,0.0,argentina,DOC
-syrah,san rafael,2022,True,0.85,1.0,0.0,argentina,DOC
-torrontes riojano,san rafael,2018,False,0.85,1.0,0.0,argentina,DOC
-shiraz,san rafael,2021,False,0.85,1.0,0.0,argentina,DOC
-sauvignon blanc,san rafael,2020,False,0.85,1.0,0.0,argentina,DOC
-chenin blanc,san rafael,2017,True,0.85,1.0,0.0,argentina,DOC
-cabernet sauvignon,san rafael,2020,False,0.85,1.0,0.0,argentina,DOC
-bonarda,san rafael,2019,False,0.85,1.0,0.0,argentina,DOC
-chenin blanc,san rafael,2015,False,0.85,1.0,0.0,argentina,DOC
-sauvignon blanc,luján de cuyo,2015,False,0.85,1.0,0.0,argentina,DOC
-chardonnay,luján de cuyo,2019,False,0.85,1.0,0.0,argentina,DOC
-sauvignon blanc,luján de cuyo,2017,True,0.85,1.0,0.0,argentina,DOC
-sauvignon blanc,luján de cuyo,2019,True,0.85,1.0,0.0,argentina,DOC
-chenin blanc,luján de cuyo,2024,False,0.85,1.0,0.0,argentina,DOC
-torrontes riojano,luján de cuyo,2016,False,0.85,1.0,0.0,argentina,DOC
-cabernet sauvignon,luján de cuyo,2020,False,0.85,1.0,0.0,argentina,DOC
-torrontes,luján de cuyo,2019,False,0.85,1.0,0.0,argentina,DOC
-torrontes riojano,luján de cuyo,2017,False,0.85,1.0,0.0,argentina,DOC
-malbec,luján de cuyo,2022,True,0.85,1.0,0.0,argentina,DOC
-shiraz,luján de cuyo,2016,False,0.85,1.0,0.0,argentina,DOC
-malbec,luján de cuyo,2022,True,0.85,1.0,0.0,argentina,DOC
-shiraz,luján de cuyo,2020,False,0.85,1.0,0.0,argentina,DOC
-chenin blanc,luján de cuyo,2018,True,0.85,1.0,0.0,argentina,DOC
-torrontes,luján de cuyo,2021,True,0.85,1.0,0.0,argentina,DOC
-pinotage,south africa,2020,True,0.85,1.0,0.85,south africa,WO
-chardonnay,south africa,2023,False,0.85,1.0,0.85,south africa,WO
-muscat of alexandria,south africa,2019,False,0.85,1.0,0.85,south africa,WO
-pinotage,south africa,2015,True,0.85,1.0,0.85,south africa,WO
-pinotage,south africa,2015,False,0.85,1.0,0.85,south africa,WO
-syrah,south africa,2024,True,0.85,1.0,0.85,south africa,WO
-pinotage,south africa,2019,False,0.85,1.0,0.85,south africa,WO
-cabernet sauvignon,south africa,2016,True,0.85,1.0,0.85,south africa,WO
-sauvignon blanc,south africa,2024,False,0.85,1.0,0.85,south africa,WO
-merlot,south africa,2023,False,0.85,1.0,0.85,south africa,WO
-sauvignon blanc,south africa,2015,False,0.85,1.0,0.85,south africa,WO
-syrah,south africa,2022,True,0.85,1.0,0.85,south africa,WO
-shiraz,south africa,2019,True,0.85,1.0,0.85,south africa,WO
-cabernet sauvignon,south africa,2021,False,0.85,1.0,0.85,south africa,WO
-merlot,south africa,2017,False,0.85,1.0,0.85,south africa,WO
-syrah,stellenbosch,2023,True,0.85,1.0,0.85,south africa,WO
-merlot,stellenbosch,2022,False,0.85,1.0,0.85,south africa,WO
-sauvignon blanc,stellenbosch,2019,False,0.85,1.0,0.85,south africa,WO
-merlot,stellenbosch,2024,False,0.85,1.0,0.85,south africa,WO
-chenin blanc,stellenbosch,2022,False,0.85,1.0,0.85,south africa,WO
-colombard,stellenbosch,2021,False,0.85,1.0,0.85,south africa,WO
-muscat of alexandria,stellenbosch,2022,True,0.85,1.0,0.85,south africa,WO
-muscat of alexandria,stellenbosch,2024,False,0.85,1.0,0.85,south africa,WO
-shiraz,stellenbosch,2018,True,0.85,1.0,0.85,south africa,WO
-muscat of alexandria,stellenbosch,2022,False,0.85,1.0,0.85,south africa,WO
-colombard,stellenbosch,2015,True,0.85,1.0,0.85,south africa,WO
-sauvignon blanc,stellenbosch,2022,False,0.85,1.0,0.85,south africa,WO
-syrah,stellenbosch,2024,False,0.85,1.0,0.85,south africa,WO
-merlot,stellenbosch,2015,False,0.85,1.0,0.85,south africa,WO
-merlot,stellenbosch,2023,True,0.85,1.0,0.85,south africa,WO
-cabernet sauvignon,western cape,2020,False,0.85,1.0,0.85,south africa,WO
-shiraz,western cape,2018,True,0.85,1.0,0.85,south africa,WO
-chenin blanc,western cape,2019,True,0.85,1.0,0.85,south africa,WO
-colombard,western cape,2017,False,0.85,1.0,0.85,south africa,WO
-sauvignon blanc,western cape,2021,True,0.85,1.0,0.85,south africa,WO
-muscat of alexandria,western cape,2016,True,0.85,1.0,0.85,south africa,WO
-merlot,western cape,2017,False,0.85,1.0,0.85,south africa,WO
-colombard,western cape,2023,False,0.85,1.0,0.85,south africa,WO
-syrah,western cape,2022,False,0.85,1.0,0.85,south africa,WO
-merlot,western cape,2022,False,0.85,1.0,0.85,south africa,WO
-syrah,western cape,2021,True,0.85,1.0,0.85,south africa,WO
-merlot,western cape,2024,True,0.85,1.0,0.85,south africa,WO
-chenin blanc,western cape,2015,False,0.85,1.0,0.85,south africa,WO
-sauvignon blanc,western cape,2020,True,0.85,1.0,0.85,south africa,WO
-chenin blanc,western cape,2018,True,0.85,1.0,0.85,south africa,WO
-pinotage,paarl,2019,False,0.85,1.0,0.85,south africa,WO
-colombard,paarl,2023,True,0.85,1.0,0.85,south africa,WO
-chardonnay,paarl,2022,True,0.85,1.0,0.85,south africa,WO
-syrah,paarl,2024,False,0.85,1.0,0.85,south africa,WO
+pais,elqui,2022,False,0.85,0.85,0.85,chile,Gran Reserva
+pais,elqui,2023,False,0.85,0.85,0.85,chile,Reserva
+cabernet sauvignon,elqui,2018,True,0.85,0.85,0.85,chile,Reserva Especial
+sauvignon blanc,elqui,2019,False,0.85,0.85,0.85,chile,Reserva
+cabernet sauvignon,elqui,2024,True,0.85,0.85,0.85,chile,Reserva Especial
+merlot,elqui,2023,True,0.85,0.85,0.85,chile,DO
+moscatel of alexandria,elqui,2016,True,0.85,0.85,0.85,chile,DO
+carmenere,elqui,2022,False,0.85,0.85,0.85,chile,DO
+cabernet sauvignon,elqui,2015,False,0.85,0.85,0.85,chile,Gran Reserva
+moscatel of alexandria,elqui,2024,False,0.85,0.85,0.85,chile,DO
+moscatel of alexandria,elqui,2022,True,0.85,0.85,0.85,chile,DO
+carmenere,elqui,2017,False,0.85,0.85,0.85,chile,Reserva
+pais,elqui,2015,False,0.85,0.85,0.85,chile,DO
+moscatel of alexandria,elqui,2018,True,0.85,0.85,0.85,chile,DO
+sauvignon blanc,elqui,2017,True,0.85,0.85,0.85,chile,Reserva
+merlot,limari,2021,True,0.85,0.85,0.85,chile,DO
+pais,limari,2020,False,0.85,0.85,0.85,chile,Reserva Especial
+chardonnay,limari,2021,True,0.85,0.85,0.85,chile,Reserva
+chardonnay,limari,2019,True,0.85,0.85,0.85,chile,Reserva Especial
+pais,limari,2021,True,0.85,0.85,0.85,chile,Reserva
+sauvignon blanc,limari,2024,True,0.85,0.85,0.85,chile,Reserva
+pais,limari,2022,False,0.85,0.85,0.85,chile,Reserva Especial
+moscatel of alexandria,limari,2024,True,0.85,0.85,0.85,chile,DO
+pais,limari,2021,False,0.85,0.85,0.85,chile,Reserva
+sauvignon blanc,limari,2020,False,0.85,0.85,0.85,chile,DO
+moscatel of alexandria,limari,2021,True,0.85,0.85,0.85,chile,DO
+sauvignon blanc,limari,2016,True,0.85,0.85,0.85,chile,Gran Reserva
+cabernet sauvignon,limari,2019,False,0.85,0.85,0.85,chile,Reserva
+sauvignon blanc,limari,2017,True,0.85,0.85,0.85,chile,Gran Reserva
+moscatel of alexandria,limari,2018,True,0.85,0.85,0.85,chile,DO
+pais,casablanca,2020,False,0.85,0.85,0.85,chile,Gran Reserva
+pais,casablanca,2016,False,0.85,0.85,0.85,chile,Gran Reserva
+cabernet sauvignon,casablanca,2024,False,0.85,0.85,0.85,chile,Reserva Especial
+pais,casablanca,2020,True,0.85,0.85,0.85,chile,Gran Reserva
+cabernet sauvignon,casablanca,2015,False,0.85,0.85,0.85,chile,Reserva Especial
+carmenere,casablanca,2018,True,0.85,0.85,0.85,chile,DO
+merlot,casablanca,2021,False,0.85,0.85,0.85,chile,Reserva Especial
+merlot,casablanca,2021,True,0.85,0.85,0.85,chile,Reserva Especial
+chardonnay,casablanca,2015,False,0.85,0.85,0.85,chile,DO
+sauvignon blanc,casablanca,2024,True,0.85,0.85,0.85,chile,Gran Reserva
+cabernet sauvignon,casablanca,2023,False,0.85,0.85,0.85,chile,DO
+pais,casablanca,2015,True,0.85,0.85,0.85,chile,DO
+carmenere,casablanca,2016,False,0.85,0.85,0.85,chile,Reserva
+carmenere,casablanca,2023,True,0.85,0.85,0.85,chile,Gran Reserva
+moscatel of alexandria,casablanca,2024,True,0.85,0.85,0.85,chile,Reserva
+syrah,argentina,2019,False,0.85,0.85,0.85,argentina,IG
+torrontes,argentina,2021,False,0.85,0.85,0.85,argentina,IG
+syrah,argentina,2024,True,0.85,0.85,0.85,argentina,IG
+chardonnay,argentina,2024,False,0.85,0.85,0.85,argentina,IG
+syrah,argentina,2021,True,0.85,0.85,0.85,argentina,IG
+chenin blanc,argentina,2015,False,0.85,0.85,0.85,argentina,IG
+torrontes riojano,argentina,2023,False,0.85,0.85,0.85,argentina,IG
+chenin blanc,argentina,2015,False,0.85,0.85,0.85,argentina,IG
+bonarda,argentina,2016,True,0.85,0.85,0.85,argentina,IG
+sauvignon blanc,argentina,2020,False,0.85,0.85,0.85,argentina,IG
+malbec,argentina,2022,False,0.85,0.85,0.85,argentina,IG
+torrontes riojano,argentina,2016,True,0.85,0.85,0.85,argentina,IG
+malbec,argentina,2024,False,0.85,0.85,0.85,argentina,IG
+shiraz,argentina,2018,True,0.85,0.85,0.85,argentina,IG
+chardonnay,argentina,2019,True,0.85,0.85,0.85,argentina,IG
+chenin blanc,mendoza,2017,False,0.85,0.85,0.85,argentina,IG
+torrontes riojano,mendoza,2022,True,0.85,0.85,0.85,argentina,IG
+torrontes,mendoza,2018,True,0.85,0.85,0.85,argentina,IG
+sauvignon blanc,mendoza,2020,False,0.85,0.85,0.85,argentina,IG
+shiraz,mendoza,2020,False,0.85,0.85,0.85,argentina,IG
+chardonnay,mendoza,2021,False,0.85,0.85,0.85,argentina,IG
+chardonnay,mendoza,2024,False,0.85,0.85,0.85,argentina,IG
+chardonnay,mendoza,2024,True,0.85,0.85,0.85,argentina,IG
+cabernet sauvignon,mendoza,2023,False,0.85,0.85,0.85,argentina,IG
+syrah,mendoza,2015,False,0.85,0.85,0.85,argentina,IG
+sauvignon blanc,mendoza,2020,False,0.85,0.85,0.85,argentina,IG
+torrontes,mendoza,2019,True,0.85,0.85,0.85,argentina,IG
+bonarda,mendoza,2024,True,0.85,0.85,0.85,argentina,IG
+torrontes riojano,mendoza,2024,False,0.85,0.85,0.85,argentina,IG
+chenin blanc,mendoza,2018,False,0.85,0.85,0.85,argentina,IG
+chardonnay,san juan,2015,False,0.85,0.85,0.85,argentina,IG
+chenin blanc,san juan,2024,True,0.85,0.85,0.85,argentina,IG
+torrontes riojano,san juan,2024,False,0.85,0.85,0.85,argentina,IG
+malbec,san juan,2016,True,0.85,0.85,0.85,argentina,IG
+torrontes riojano,san juan,2024,True,0.85,0.85,0.85,argentina,IG
+torrontes riojano,san juan,2022,True,0.85,0.85,0.85,argentina,IG
+syrah,san juan,2019,True,0.85,0.85,0.85,argentina,IG
+chenin blanc,san juan,2017,True,0.85,0.85,0.85,argentina,IG
+malbec,san juan,2015,False,0.85,0.85,0.85,argentina,IG
+torrontes,san juan,2024,False,0.85,0.85,0.85,argentina,IG
+malbec,san juan,2021,True,0.85,0.85,0.85,argentina,IG
+torrontes,san juan,2018,True,0.85,0.85,0.85,argentina,IG
+chenin blanc,san juan,2018,True,0.85,0.85,0.85,argentina,IG
+bonarda,san juan,2022,True,0.85,0.85,0.85,argentina,IG
+torrontes riojano,san juan,2021,False,0.85,0.85,0.85,argentina,IG
+sauvignon blanc,la rioja,2022,True,0.85,0.85,0.85,argentina,IG
+torrontes,la rioja,2023,False,0.85,0.85,0.85,argentina,IG
+malbec,la rioja,2019,False,0.85,0.85,0.85,argentina,IG
+cabernet sauvignon,la rioja,2024,True,0.85,0.85,0.85,argentina,IG
+torrontes,la rioja,2021,True,0.85,0.85,0.85,argentina,IG
+sauvignon blanc,la rioja,2023,False,0.85,0.85,0.85,argentina,IG
+malbec,la rioja,2018,True,0.85,0.85,0.85,argentina,IG
+malbec,la rioja,2017,True,0.85,0.85,0.85,argentina,IG
+cabernet sauvignon,la rioja,2018,True,0.85,0.85,0.85,argentina,IG
+cabernet sauvignon,la rioja,2016,False,0.85,0.85,0.85,argentina,IG
+bonarda,la rioja,2018,False,0.85,0.85,0.85,argentina,IG
+syrah,la rioja,2015,True,0.85,0.85,0.85,argentina,IG
+torrontes riojano,la rioja,2020,True,0.85,0.85,0.85,argentina,IG
+bonarda,la rioja,2024,True,0.85,0.85,0.85,argentina,IG
+chardonnay,la rioja,2015,False,0.85,0.85,0.85,argentina,IG
+sauvignon blanc,san rafael,2022,False,0.85,1.0,0.85,argentina,DOC
+syrah,san rafael,2024,False,0.85,1.0,0.85,argentina,DOC
+sauvignon blanc,san rafael,2016,False,0.85,1.0,0.85,argentina,DOC
+malbec,san rafael,2017,True,0.85,1.0,0.85,argentina,DOC
+chenin blanc,san rafael,2020,False,0.85,1.0,0.85,argentina,DOC
+torrontes,san rafael,2017,True,0.85,1.0,0.85,argentina,DOC
+bonarda,san rafael,2024,True,0.85,1.0,0.85,argentina,DOC
+chenin blanc,san rafael,2018,False,0.85,1.0,0.85,argentina,DOC
+cabernet sauvignon,san rafael,2023,True,0.85,1.0,0.85,argentina,DOC
+torrontes,san rafael,2015,False,0.85,1.0,0.85,argentina,DOC
+malbec,san rafael,2015,False,0.85,1.0,0.85,argentina,DOC
+chenin blanc,san rafael,2017,False,0.85,1.0,0.85,argentina,DOC
+sauvignon blanc,san rafael,2017,False,0.85,1.0,0.85,argentina,DOC
+malbec,san rafael,2021,True,0.85,1.0,0.85,argentina,DOC
+chardonnay,san rafael,2024,False,0.85,1.0,0.85,argentina,DOC
+malbec,luján de cuyo,2015,False,0.85,1.0,0.85,argentina,DOC
+shiraz,luján de cuyo,2019,False,0.85,1.0,0.85,argentina,DOC
+shiraz,luján de cuyo,2020,True,0.85,1.0,0.85,argentina,DOC
+chardonnay,luján de cuyo,2015,False,0.85,1.0,0.85,argentina,DOC
+chardonnay,luján de cuyo,2016,True,0.85,1.0,0.85,argentina,DOC
+chardonnay,luján de cuyo,2021,True,0.85,1.0,0.85,argentina,DOC
+chenin blanc,luján de cuyo,2021,False,0.85,1.0,0.85,argentina,DOC
+bonarda,luján de cuyo,2018,False,0.85,1.0,0.85,argentina,DOC
+shiraz,luján de cuyo,2023,False,0.85,1.0,0.85,argentina,DOC
+sauvignon blanc,luján de cuyo,2017,False,0.85,1.0,0.85,argentina,DOC
+torrontes riojano,luján de cuyo,2016,True,0.85,1.0,0.85,argentina,DOC
+malbec,luján de cuyo,2021,True,0.85,1.0,0.85,argentina,DOC
+cabernet sauvignon,luján de cuyo,2022,True,0.85,1.0,0.85,argentina,DOC
+sauvignon blanc,luján de cuyo,2022,False,0.85,1.0,0.85,argentina,DOC
+chenin blanc,luján de cuyo,2020,True,0.85,1.0,0.85,argentina,DOC
+sauvignon blanc,south africa,2023,True,0.85,1.0,0.85,south africa,WO
+sauvignon blanc,south africa,2017,False,0.85,1.0,0.85,south africa,WO
+cabernet sauvignon,south africa,2024,False,0.85,1.0,0.85,south africa,WO
+cabernet sauvignon,south africa,2018,True,0.85,1.0,0.85,south africa,WO
+cabernet sauvignon,south africa,2020,True,0.85,1.0,0.85,south africa,WO
+sauvignon blanc,south africa,2021,False,0.85,1.0,0.85,south africa,WO
+sauvignon blanc,south africa,2017,True,0.85,1.0,0.85,south africa,WO
+shiraz,south africa,2015,True,0.85,1.0,0.85,south africa,WO
+shiraz,south africa,2022,False,0.85,1.0,0.85,south africa,WO
+colombard,south africa,2022,True,0.85,1.0,0.85,south africa,WO
+muscat of alexandria,south africa,2021,True,0.85,1.0,0.85,south africa,WO
+cabernet sauvignon,south africa,2019,False,0.85,1.0,0.85,south africa,WO
+pinotage,south africa,2016,True,0.85,1.0,0.85,south africa,WO
+sauvignon blanc,south africa,2023,True,0.85,1.0,0.85,south africa,WO
+sauvignon blanc,south africa,2019,True,0.85,1.0,0.85,south africa,WO
+shiraz,stellenbosch,2016,True,0.85,1.0,0.85,south africa,WO
+colombard,stellenbosch,2020,True,0.85,1.0,0.85,south africa,WO
+shiraz,stellenbosch,2022,True,0.85,1.0,0.85,south africa,WO
+pinotage,stellenbosch,2019,True,0.85,1.0,0.85,south africa,WO
+cabernet sauvignon,stellenbosch,2019,False,0.85,1.0,0.85,south africa,WO
+chenin blanc,stellenbosch,2024,False,0.85,1.0,0.85,south africa,WO
+merlot,stellenbosch,2017,True,0.85,1.0,0.85,south africa,WO
+chardonnay,stellenbosch,2015,True,0.85,1.0,0.85,south africa,WO
+cabernet sauvignon,stellenbosch,2020,False,0.85,1.0,0.85,south africa,WO
+pinotage,stellenbosch,2015,True,0.85,1.0,0.85,south africa,WO
+shiraz,stellenbosch,2024,False,0.85,1.0,0.85,south africa,WO
+pinotage,stellenbosch,2015,True,0.85,1.0,0.85,south africa,WO
+sauvignon blanc,stellenbosch,2024,True,0.85,1.0,0.85,south africa,WO
+pinotage,stellenbosch,2023,False,0.85,1.0,0.85,south africa,WO
+sauvignon blanc,stellenbosch,2022,True,0.85,1.0,0.85,south africa,WO
+sauvignon blanc,western cape,2021,False,0.85,1.0,0.85,south africa,WO
+merlot,western cape,2019,True,0.85,1.0,0.85,south africa,WO
+sauvignon blanc,western cape,2023,False,0.85,1.0,0.85,south africa,WO
+muscat of alexandria,western cape,2021,False,0.85,1.0,0.85,south africa,WO
+chardonnay,western cape,2023,False,0.85,1.0,0.85,south africa,WO
+merlot,western cape,2020,False,0.85,1.0,0.85,south africa,WO
+pinotage,western cape,2016,False,0.85,1.0,0.85,south africa,WO
+syrah,western cape,2016,True,0.85,1.0,0.85,south africa,WO
+pinotage,western cape,2018,False,0.85,1.0,0.85,south africa,WO
+shiraz,western cape,2020,True,0.85,1.0,0.85,south africa,WO
+colombard,western cape,2022,False,0.85,1.0,0.85,south africa,WO
+colombard,western cape,2021,False,0.85,1.0,0.85,south africa,WO
+shiraz,western cape,2017,False,0.85,1.0,0.85,south africa,WO
+chenin blanc,western cape,2015,True,0.85,1.0,0.85,south africa,WO
+pinotage,western cape,2021,True,0.85,1.0,0.85,south africa,WO
+chardonnay,paarl,2021,False,0.85,1.0,0.85,south africa,WO
+cabernet sauvignon,paarl,2015,False,0.85,1.0,0.85,south africa,WO
+merlot,paarl,2023,False,0.85,1.0,0.85,south africa,WO
+colombard,paarl,2018,False,0.85,1.0,0.85,south africa,WO
 pinotage,paarl,2021,False,0.85,1.0,0.85,south africa,WO
-muscat of alexandria,paarl,2017,False,0.85,1.0,0.85,south africa,WO
-syrah,paarl,2022,True,0.85,1.0,0.85,south africa,WO
-shiraz,paarl,2020,False,0.85,1.0,0.85,south africa,WO
-merlot,paarl,2021,True,0.85,1.0,0.85,south africa,WO
-muscat of alexandria,paarl,2017,False,0.85,1.0,0.85,south africa,WO
-muscat of alexandria,paarl,2024,True,0.85,1.0,0.85,south africa,WO
-chenin blanc,paarl,2019,True,0.85,1.0,0.85,south africa,WO
-merlot,paarl,2016,True,0.85,1.0,0.85,south africa,WO
-muscat of alexandria,paarl,2020,True,0.85,1.0,0.85,south africa,WO
-merlot,paarl,2015,True,0.85,1.0,0.85,south africa,WO
-chenin blanc,robertson,2016,True,0.85,1.0,0.85,south africa,WO
-chardonnay,robertson,2018,True,0.85,1.0,0.85,south africa,WO
-merlot,robertson,2023,False,0.85,1.0,0.85,south africa,WO
-pinotage,robertson,2015,False,0.85,1.0,0.85,south africa,WO
-chardonnay,robertson,2021,False,0.85,1.0,0.85,south africa,WO
-shiraz,robertson,2020,False,0.85,1.0,0.85,south africa,WO
-sauvignon blanc,robertson,2018,False,0.85,1.0,0.85,south africa,WO
-pinotage,robertson,2020,False,0.85,1.0,0.85,south africa,WO
-colombard,robertson,2020,False,0.85,1.0,0.85,south africa,WO
-muscat of alexandria,robertson,2022,False,0.85,1.0,0.85,south africa,WO
-sauvignon blanc,robertson,2022,True,0.85,1.0,0.85,south africa,WO
-shiraz,robertson,2021,True,0.85,1.0,0.85,south africa,WO
-colombard,robertson,2024,True,0.85,1.0,0.85,south africa,WO
-syrah,robertson,2022,True,0.85,1.0,0.85,south africa,WO
-muscat of alexandria,robertson,2021,False,0.85,1.0,0.85,south africa,WO
+merlot,paarl,2023,True,0.85,1.0,0.85,south africa,WO
+muscat of alexandria,paarl,2021,True,0.85,1.0,0.85,south africa,WO
+merlot,paarl,2018,True,0.85,1.0,0.85,south africa,WO
+muscat of alexandria,paarl,2015,False,0.85,1.0,0.85,south africa,WO
+chardonnay,paarl,2017,False,0.85,1.0,0.85,south africa,WO
+chardonnay,paarl,2022,True,0.85,1.0,0.85,south africa,WO
+chenin blanc,paarl,2021,True,0.85,1.0,0.85,south africa,WO
+chenin blanc,paarl,2021,True,0.85,1.0,0.85,south africa,WO
+colombard,paarl,2017,False,0.85,1.0,0.85,south africa,WO
+cabernet sauvignon,paarl,2021,True,0.85,1.0,0.85,south africa,WO
+cabernet sauvignon,robertson,2019,False,0.85,1.0,0.85,south africa,WO
+shiraz,robertson,2023,True,0.85,1.0,0.85,south africa,WO
+muscat of alexandria,robertson,2023,False,0.85,1.0,0.85,south africa,WO
+merlot,robertson,2018,False,0.85,1.0,0.85,south africa,WO
+chardonnay,robertson,2016,True,0.85,1.0,0.85,south africa,WO
+merlot,robertson,2024,True,0.85,1.0,0.85,south africa,WO
+shiraz,robertson,2017,False,0.85,1.0,0.85,south africa,WO
+pinotage,robertson,2024,True,0.85,1.0,0.85,south africa,WO
+muscat of alexandria,robertson,2019,False,0.85,1.0,0.85,south africa,WO
+cabernet sauvignon,robertson,2020,True,0.85,1.0,0.85,south africa,WO
+chenin blanc,robertson,2024,True,0.85,1.0,0.85,south africa,WO
+shiraz,robertson,2022,False,0.85,1.0,0.85,south africa,WO
+pinotage,robertson,2021,False,0.85,1.0,0.85,south africa,WO
+pinotage,robertson,2018,False,0.85,1.0,0.85,south africa,WO
+muscat of alexandria,robertson,2016,True,0.85,1.0,0.85,south africa,WO
+cabernet sauvignon,swartland,2017,True,0.85,1.0,0.85,south africa,WO
+cabernet sauvignon,swartland,2021,False,0.85,1.0,0.85,south africa,WO
 muscat of alexandria,swartland,2015,True,0.85,1.0,0.85,south africa,WO
-chardonnay,swartland,2022,True,0.85,1.0,0.85,south africa,WO
-cabernet sauvignon,swartland,2021,True,0.85,1.0,0.85,south africa,WO
-shiraz,swartland,2018,False,0.85,1.0,0.85,south africa,WO
-syrah,swartland,2015,False,0.85,1.0,0.85,south africa,WO
-syrah,swartland,2017,False,0.85,1.0,0.85,south africa,WO
-merlot,swartland,2023,True,0.85,1.0,0.85,south africa,WO
-syrah,swartland,2015,True,0.85,1.0,0.85,south africa,WO
-sauvignon blanc,swartland,2022,True,0.85,1.0,0.85,south africa,WO
-pinotage,swartland,2015,False,0.85,1.0,0.85,south africa,WO
-muscat of alexandria,swartland,2018,True,0.85,1.0,0.85,south africa,WO
+merlot,swartland,2018,True,0.85,1.0,0.85,south africa,WO
+muscat of alexandria,swartland,2018,False,0.85,1.0,0.85,south africa,WO
+shiraz,swartland,2023,False,0.85,1.0,0.85,south africa,WO
+cabernet sauvignon,swartland,2019,False,0.85,1.0,0.85,south africa,WO
+sauvignon blanc,swartland,2021,False,0.85,1.0,0.85,south africa,WO
+chenin blanc,swartland,2022,False,0.85,1.0,0.85,south africa,WO
 pinotage,swartland,2021,False,0.85,1.0,0.85,south africa,WO
-shiraz,swartland,2019,True,0.85,1.0,0.85,south africa,WO
-merlot,swartland,2024,True,0.85,1.0,0.85,south africa,WO
-muscat of alexandria,swartland,2021,True,0.85,1.0,0.85,south africa,WO
-muscat of alexandria,walker bay,2022,False,0.85,1.0,0.85,south africa,WO
-merlot,walker bay,2016,False,0.85,1.0,0.85,south africa,WO
-cabernet sauvignon,walker bay,2018,False,0.85,1.0,0.85,south africa,WO
-chardonnay,walker bay,2020,False,0.85,1.0,0.85,south africa,WO
-colombard,walker bay,2019,True,0.85,1.0,0.85,south africa,WO
+shiraz,swartland,2016,True,0.85,1.0,0.85,south africa,WO
+shiraz,swartland,2016,True,0.85,1.0,0.85,south africa,WO
+cabernet sauvignon,swartland,2016,True,0.85,1.0,0.85,south africa,WO
+cabernet sauvignon,swartland,2023,False,0.85,1.0,0.85,south africa,WO
+shiraz,swartland,2022,True,0.85,1.0,0.85,south africa,WO
+pinotage,walker bay,2021,False,0.85,1.0,0.85,south africa,WO
+shiraz,walker bay,2024,False,0.85,1.0,0.85,south africa,WO
+pinotage,walker bay,2017,False,0.85,1.0,0.85,south africa,WO
+chenin blanc,walker bay,2024,False,0.85,1.0,0.85,south africa,WO
+chardonnay,walker bay,2018,True,0.85,1.0,0.85,south africa,WO
+chenin blanc,walker bay,2017,True,0.85,1.0,0.85,south africa,WO
+cabernet sauvignon,walker bay,2023,False,0.85,1.0,0.85,south africa,WO
+sauvignon blanc,walker bay,2022,False,0.85,1.0,0.85,south africa,WO
+colombard,walker bay,2015,True,0.85,1.0,0.85,south africa,WO
+chenin blanc,walker bay,2018,False,0.85,1.0,0.85,south africa,WO
+merlot,walker bay,2022,True,0.85,1.0,0.85,south africa,WO
+pinotage,walker bay,2021,True,0.85,1.0,0.85,south africa,WO
+colombard,walker bay,2021,False,0.85,1.0,0.85,south africa,WO
 chardonnay,walker bay,2022,False,0.85,1.0,0.85,south africa,WO
-syrah,walker bay,2017,False,0.85,1.0,0.85,south africa,WO
-merlot,walker bay,2024,True,0.85,1.0,0.85,south africa,WO
-shiraz,walker bay,2017,True,0.85,1.0,0.85,south africa,WO
-muscat of alexandria,walker bay,2020,True,0.85,1.0,0.85,south africa,WO
-shiraz,walker bay,2023,True,0.85,1.0,0.85,south africa,WO
-merlot,walker bay,2018,False,0.85,1.0,0.85,south africa,WO
-colombard,walker bay,2020,False,0.85,1.0,0.85,south africa,WO
-cabernet sauvignon,walker bay,2024,False,0.85,1.0,0.85,south africa,WO
-shiraz,walker bay,2020,True,0.85,1.0,0.85,south africa,WO
+pinotage,walker bay,2021,True,0.85,1.0,0.85,south africa,WO
+colombard,cape town,2019,False,0.85,1.0,0.85,south africa,WO
 sauvignon blanc,cape town,2022,False,0.85,1.0,0.85,south africa,WO
-merlot,cape town,2017,False,0.85,1.0,0.85,south africa,WO
-syrah,cape town,2024,False,0.85,1.0,0.85,south africa,WO
-sauvignon blanc,cape town,2015,False,0.85,1.0,0.85,south africa,WO
-merlot,cape town,2021,False,0.85,1.0,0.85,south africa,WO
-chenin blanc,cape town,2016,False,0.85,1.0,0.85,south africa,WO
-sauvignon blanc,cape town,2018,False,0.85,1.0,0.85,south africa,WO
-cabernet sauvignon,cape town,2024,False,0.85,1.0,0.85,south africa,WO
-shiraz,cape town,2020,False,0.85,1.0,0.85,south africa,WO
-chardonnay,cape town,2019,True,0.85,1.0,0.85,south africa,WO
-cabernet sauvignon,cape town,2018,True,0.85,1.0,0.85,south africa,WO
-muscat of alexandria,cape town,2022,True,0.85,1.0,0.85,south africa,WO
-shiraz,cape town,2020,True,0.85,1.0,0.85,south africa,WO
-merlot,cape town,2017,False,0.85,1.0,0.85,south africa,WO
-sauvignon blanc,cape town,2019,False,0.85,1.0,0.85,south africa,WO
+shiraz,cape town,2017,False,0.85,1.0,0.85,south africa,WO
+chardonnay,cape town,2015,False,0.85,1.0,0.85,south africa,WO
+merlot,cape town,2019,False,0.85,1.0,0.85,south africa,WO
+cabernet sauvignon,cape town,2020,True,0.85,1.0,0.85,south africa,WO
+chardonnay,cape town,2024,False,0.85,1.0,0.85,south africa,WO
+chenin blanc,cape town,2023,True,0.85,1.0,0.85,south africa,WO
+syrah,cape town,2021,True,0.85,1.0,0.85,south africa,WO
+chenin blanc,cape town,2019,True,0.85,1.0,0.85,south africa,WO
+chenin blanc,cape town,2022,False,0.85,1.0,0.85,south africa,WO
+pinotage,cape town,2015,False,0.85,1.0,0.85,south africa,WO
+syrah,cape town,2022,True,0.85,1.0,0.85,south africa,WO
+syrah,cape town,2022,False,0.85,1.0,0.85,south africa,WO
+merlot,cape town,2024,False,0.85,1.0,0.85,south africa,WO

@@ -7,8 +7,9 @@ import csv
 # Get the training data
 ny_or_wa_df = pd.read_csv(r'dataset/NY_OR_WA_wines.csv')
 ca_df = pd.read_csv(r'dataset/CA_wines.csv')
+cl_arg_za_df = pd.read_csv(r'dataset/CL_ARG_ZA_wines.csv')
 
-df = pd.concat([ny_or_wa_df, ca_df], ignore_index=True)
+df = pd.concat([ny_or_wa_df, ca_df, cl_arg_za_df], ignore_index=True)
 
 
 # Assigning category value to integer
