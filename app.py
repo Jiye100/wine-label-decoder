@@ -9,15 +9,19 @@ reader = easyocr.Reader(['en'])
 
 # user enters wine label number for now
 img = input("enter wine label:") + ".png"
-img_path = os.path.join('dataset\images',img)
+img_path = os.path.join('dataset/images',img)
 
 print("reading images...")
 result = reader.readtext(img_path)
+
+result = [text[1] for text in result]
+
 
 # find country
 print("finding region...")
 country = fuzzy_match.fuzzy_matching_country(result)[0]
 region = ''
+designation = ''
 
 # if country is not found (guess country by region) or US wine (need to find AVA)
 if country is None or country in fuzzy_match.state:
@@ -46,10 +50,12 @@ print("region:", country)
 if country in fuzzy_match.state:
     if region is not None:
         print("AVA:", region)
+        designation = "AVA"
     else:
         region = country
+        designation = "Country"
 
-test_label = pd.DataFrame({'grape': [grape], 'region': [region]})
+test_label = pd.DataFrame({'grape': [grape], 'region': [region], 'country': [country], 'designation': [designation]})
 
 # test 76
 grape_law, region_law, vintage_law = decision_tree.predict_law(test_label)

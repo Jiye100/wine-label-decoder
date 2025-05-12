@@ -1,267 +1,267 @@
-,grape,region,vintage,estate,grape_law,region_law,vintage_law
-0,pinot gris,wa,2018,False,0.75,0.95,0.85
-1,riesling,wa,2022,True,0.75,1.0,0.85
-2,pinot gris,wa,2024,False,0.75,0.95,0.85
-3,chardonnay,wa,2016,True,0.75,1.0,0.85
-4,pinot gris,wa,2019,True,0.75,1.0,0.85
-5,pinot gris,wa,2022,False,0.75,0.95,0.85
-6,cabernet sauvignon,wa,2023,False,0.75,0.95,0.85
-7,syrah,wa,2017,False,0.75,0.95,0.85
-8,syrah,wa,2021,True,0.75,1.0,0.85
-9,chardonnay,wa,2021,False,0.75,0.95,0.85
-10,merlot,wa,2017,True,0.75,1.0,0.85
-11,syrah,wa,2020,False,0.75,0.95,0.85
-12,cabernet sauvignon,wa,2017,True,0.75,1.0,0.85
-13,cabernet sauvignon,wa,2021,True,0.75,1.0,0.85
-14,syrah,wa,2015,True,0.75,1.0,0.85
-15,merlot,wa,2021,False,0.75,0.95,0.85
-16,cabernet sauvignon,wa,2023,False,0.75,0.95,0.85
-17,chardonnay,wa,2019,False,0.75,0.95,0.85
-18,pinot gris,washington,2022,False,0.75,0.95,0.85
-19,syrah,washington,2023,True,0.75,1.0,0.85
-20,syrah,washington,2021,False,0.75,0.95,0.85
-21,merlot,washington,2020,False,0.75,0.95,0.85
-22,riesling,washington,2017,False,0.75,0.95,0.85
-23,riesling,washington,2016,False,0.75,0.95,0.85
-24,cabernet sauvignon,washington,2015,False,0.75,0.95,0.85
-25,chardonnay,washington,2024,False,0.75,0.95,0.85
-26,chardonnay,washington,2019,False,0.75,0.95,0.85
-27,cabernet sauvignon,washington,2017,False,0.75,0.95,0.85
-28,syrah,washington,2024,False,0.75,0.95,0.85
-29,riesling,washington,2024,False,0.75,0.95,0.85
-30,riesling,washington,2018,True,0.75,1.0,0.85
-31,pinot gris,washington,2016,False,0.75,0.95,0.85
-32,cabernet sauvignon,washington,2020,False,0.75,0.95,0.85
-33,cabernet sauvignon,washington,2019,True,0.75,1.0,0.85
-34,pinot gris,washington,2023,False,0.75,0.95,0.85
-35,syrah,washington,2021,False,0.75,0.95,0.85
-36,chardonnay,columbia valley,2019,False,0.75,0.95,0.95
-37,syrah,columbia valley,2016,False,0.75,0.95,0.95
-38,merlot,columbia valley,2019,False,0.75,0.95,0.95
-39,merlot,columbia valley,2015,True,0.75,1.0,0.95
-40,pinot gris,columbia valley,2017,False,0.75,0.95,0.95
-41,chardonnay,columbia valley,2022,False,0.75,0.95,0.95
-42,pinot gris,yakima valley,2024,False,0.75,0.95,0.95
-43,riesling,yakima valley,2015,False,0.75,0.95,0.95
-44,syrah,yakima valley,2022,False,0.75,0.95,0.95
-45,chardonnay,yakima valley,2021,False,0.75,0.95,0.95
-46,riesling,yakima valley,2024,True,0.75,1.0,0.95
-47,pinot gris,yakima valley,2024,True,0.75,1.0,0.95
-48,merlot,walla walla valley,2021,False,0.75,0.95,0.95
-49,syrah,walla walla valley,2019,False,0.75,0.95,0.95
-50,riesling,walla walla valley,2021,True,0.75,1.0,0.95
-51,syrah,walla walla valley,2024,True,0.75,1.0,0.95
-52,pinot gris,walla walla valley,2024,False,0.75,0.95,0.95
-53,pinot gris,walla walla valley,2015,False,0.75,0.95,0.95
-54,chardonnay,red mountain,2016,False,0.75,0.95,0.95
-55,merlot,red mountain,2023,False,0.75,0.95,0.95
-56,pinot gris,red mountain,2023,False,0.75,0.95,0.95
-57,cabernet sauvignon,red mountain,2015,False,0.75,0.95,0.95
-58,chardonnay,red mountain,2023,False,0.75,0.95,0.95
-59,riesling,red mountain,2022,False,0.75,0.95,0.95
-60,riesling,horse heaven hills,2015,False,0.75,0.95,0.95
-61,syrah,horse heaven hills,2020,True,0.75,1.0,0.95
-62,chardonnay,horse heaven hills,2024,False,0.75,0.95,0.95
-63,pinot gris,horse heaven hills,2016,True,0.75,1.0,0.95
-64,cabernet sauvignon,horse heaven hills,2020,False,0.75,0.95,0.95
-65,syrah,horse heaven hills,2018,True,0.75,1.0,0.95
-66,chardonnay,wahluke slope,2017,False,0.75,0.95,0.95
-67,chardonnay,wahluke slope,2017,False,0.75,0.95,0.95
-68,syrah,wahluke slope,2016,False,0.75,0.95,0.95
-69,riesling,wahluke slope,2020,True,0.75,1.0,0.95
-70,chardonnay,wahluke slope,2024,False,0.75,0.95,0.95
-71,riesling,wahluke slope,2022,False,0.75,0.95,0.95
-72,merlot,rattlesnake hills,2017,False,0.75,0.95,0.95
-73,syrah,rattlesnake hills,2016,False,0.75,0.95,0.95
-74,syrah,rattlesnake hills,2020,False,0.75,0.95,0.95
-75,merlot,rattlesnake hills,2018,False,0.75,0.95,0.95
-76,cabernet sauvignon,rattlesnake hills,2015,False,0.75,0.95,0.95
-77,pinot gris,rattlesnake hills,2023,False,0.75,0.95,0.95
-78,merlot,snipes mountain,2024,False,0.75,0.95,0.95
-79,cabernet sauvignon,snipes mountain,2024,False,0.75,0.95,0.95
-80,syrah,snipes mountain,2022,False,0.75,0.95,0.95
-81,chardonnay,snipes mountain,2020,False,0.75,0.95,0.95
-82,chardonnay,snipes mountain,2015,False,0.75,0.95,0.95
-83,cabernet sauvignon,snipes mountain,2023,False,0.75,0.95,0.95
-84,pinot noir,or,2023,False,0.9,1.0,0.85
-85,chardonnay,or,2021,False,0.9,1.0,0.85
-86,chardonnay,or,2023,False,0.9,1.0,0.85
-87,pinot gris,or,2024,False,0.9,1.0,0.85
-88,chardonnay,or,2018,False,0.9,1.0,0.85
-89,tempranillo,or,2018,False,0.75,1.0,0.85
-90,pinot gris,or,2016,False,0.9,1.0,0.85
-91,pinot noir,or,2016,False,0.9,1.0,0.85
-92,tannat,or,2022,False,0.75,1.0,0.85
-93,pinot noir,or,2015,False,0.9,1.0,0.85
-94,pinot noir,or,2016,False,0.9,1.0,0.85
-95,pinot noir,or,2019,False,0.9,1.0,0.85
-96,tannat,or,2023,False,0.75,1.0,0.85
-97,pinot gris,or,2020,False,0.9,1.0,0.85
-98,pinot gris,or,2017,True,0.9,1.0,0.85
-99,cabernet sauvignon,or,2015,False,0.75,1.0,0.85
-100,merlot,or,2022,False,0.75,1.0,0.85
-101,pinot noir,or,2015,False,0.9,1.0,0.85
-102,chardonnay,oregon,2019,False,0.9,1.0,0.85
-103,petit verdot,oregon,2015,True,0.75,1.0,0.85
-104,tempranillo,oregon,2020,True,0.75,1.0,0.85
-105,chardonnay,oregon,2018,False,0.9,1.0,0.85
-106,pinot noir,oregon,2024,False,0.9,1.0,0.85
-107,malbec,oregon,2019,False,0.75,1.0,0.85
-108,pinot noir,oregon,2016,True,0.9,1.0,0.85
-109,syrah,oregon,2015,False,0.75,1.0,0.85
-110,pinot noir,oregon,2017,False,0.9,1.0,0.85
-111,pinot gris,oregon,2017,True,0.9,1.0,0.85
-112,cabernet sauvignon,oregon,2016,False,0.75,1.0,0.85
-113,petite sirah,oregon,2016,True,0.75,1.0,0.85
-114,cabernet sauvignon,oregon,2023,True,0.75,1.0,0.85
-115,zinfandel,oregon,2023,True,0.75,1.0,0.85
-116,sangiovese,oregon,2016,False,0.75,1.0,0.85
-117,pinot gris,oregon,2024,True,0.9,1.0,0.85
-118,grenache,oregon,2022,False,0.75,1.0,0.85
-119,chardonnay,oregon,2024,False,0.9,1.0,0.85
-120,syrah,willamette valley,2023,True,0.75,1.0,0.95
-121,mourvedre,willamette valley,2024,False,0.75,0.95,0.95
-122,grenache,willamette valley,2022,False,0.75,0.95,0.95
-123,malbec,willamette valley,2018,False,0.75,0.95,0.95
-124,chardonnay,willamette valley,2020,True,0.9,1.0,0.95
-125,chardonnay,willamette valley,2024,False,0.9,0.95,0.95
-126,merlot,dundee hills,2017,True,0.75,1.0,0.95
-127,semillion,dundee hills,2019,False,0.75,0.95,0.95
-128,pinot noir,dundee hills,2022,False,0.9,0.95,0.95
-129,zinfandel,dundee hills,2017,True,0.75,1.0,0.95
-130,petit verdot,dundee hills,2015,False,0.75,0.95,0.95
-131,chardonnay,dundee hills,2019,True,0.9,1.0,0.95
-132,chardonnay,yamhill-carlton,2023,True,0.9,1.0,0.95
-133,sauvignon blanc,yamhill-carlton,2015,False,0.75,0.95,0.95
-134,chardonnay,yamhill-carlton,2022,True,0.9,1.0,0.95
-135,pinot noir,yamhill-carlton,2016,False,0.9,0.95,0.95
-136,pinot gris,yamhill-carlton,2016,False,0.9,0.95,0.95
-137,mourvedre,yamhill-carlton,2018,False,0.75,0.95,0.95
-138,chardonnay,mcminnville,2015,False,0.9,0.95,0.95
-139,syrah,mcminnville,2023,False,0.75,0.95,0.95
-140,sauvignon blanc,mcminnville,2022,False,0.75,0.95,0.95
-141,marsanne,mcminnville,2018,False,0.75,0.95,0.95
-142,pinot gris,mcminnville,2019,False,0.9,0.95,0.95
-143,tempranillo,mcminnville,2017,False,0.75,0.95,0.95
-144,chardonnay,ribbon ridge,2023,False,0.9,0.95,0.95
-145,chardonnay,ribbon ridge,2016,False,0.9,0.95,0.95
-146,pinot noir,ribbon ridge,2018,True,0.9,1.0,0.95
-147,pinot noir,ribbon ridge,2015,False,0.9,0.95,0.95
-148,grenache,ribbon ridge,2022,False,0.75,0.95,0.95
-149,pinot noir,ribbon ridge,2024,False,0.9,0.95,0.95
-150,pinot noir,chehalem mountains,2024,False,0.9,0.95,0.95
-151,pinot noir,chehalem mountains,2019,False,0.9,0.95,0.95
-152,sauvignon blanc,chehalem mountains,2018,False,0.75,0.95,0.95
-153,chardonnay,chehalem mountains,2022,False,0.9,0.95,0.95
-154,chardonnay,chehalem mountains,2017,False,0.9,0.95,0.95
-155,merlot,chehalem mountains,2019,False,0.75,0.95,0.95
-156,merlot,umpqua valley,2023,False,0.75,0.95,0.95
-157,carmenere,umpqua valley,2018,False,0.75,0.95,0.95
-158,tempranillo,umpqua valley,2021,False,0.75,0.95,0.95
-159,pinot noir,umpqua valley,2019,False,0.9,0.95,0.95
-160,pinot noir,umpqua valley,2017,False,0.9,0.95,0.95
-161,pinot noir,umpqua valley,2020,False,0.9,0.95,0.95
-162,merlot,rogue valley,2022,False,0.75,0.95,0.95
-163,grenache,rogue valley,2017,False,0.75,0.95,0.95
-164,cabernet franc,rogue valley,2021,False,0.75,0.95,0.95
-165,zinfandel,rogue valley,2015,False,0.75,0.95,0.95
-166,roussanne,rogue valley,2019,False,0.75,0.95,0.95
-167,tannat,rogue valley,2022,True,0.75,1.0,0.95
-168,pinot gris,applegate valley,2023,False,0.9,0.95,0.95
-169,pinot noir,applegate valley,2022,False,0.9,0.95,0.95
-170,chardonnay,applegate valley,2016,False,0.9,0.95,0.95
-171,carmenere,applegate valley,2015,False,0.75,0.95,0.95
-172,petite sirah,applegate valley,2017,False,0.75,0.95,0.95
-173,syrah,applegate valley,2017,False,0.75,0.95,0.95
-174,cabernet franc,ny,2020,False,0.75,0.85,0.85
-175,cabernet sauvignon,ny,2016,False,0.75,0.85,0.85
-176,cabernet franc,ny,2021,True,0.75,1.0,0.85
-177,cabernet franc,ny,2024,False,0.75,0.85,0.85
-178,pinot noir,ny,2023,False,0.75,0.85,0.85
-179,cabernet franc,ny,2015,False,0.75,0.85,0.85
-180,riesling,ny,2019,False,0.75,0.85,0.85
-181,chardonnay,ny,2016,False,0.75,0.85,0.85
-182,riesling,ny,2023,False,0.75,0.85,0.85
-183,chardonnay,ny,2024,False,0.75,0.85,0.85
-184,cabernet sauvignon,ny,2023,False,0.75,0.85,0.85
-185,riesling,ny,2022,True,0.75,1.0,0.85
-186,cabernet franc,ny,2020,True,0.75,1.0,0.85
-187,pinot noir,ny,2020,False,0.75,0.85,0.85
-188,merlot,ny,2016,False,0.75,0.85,0.85
-189,merlot,ny,2020,False,0.75,0.85,0.85
-190,cabernet sauvignon,ny,2023,False,0.75,0.85,0.85
-191,chardonnay,ny,2018,False,0.75,0.85,0.85
-192,chardonnay,new york,2017,False,0.75,0.85,0.85
-193,cabernet sauvignon,new york,2024,False,0.75,0.85,0.85
-194,chardonnay,new york,2017,False,0.75,0.85,0.85
-195,cabernet sauvignon,new york,2023,True,0.75,1.0,0.85
-196,merlot,new york,2024,True,0.75,1.0,0.85
-197,pinot noir,new york,2024,False,0.75,0.85,0.85
-198,merlot,new york,2023,False,0.75,0.85,0.85
-199,cabernet franc,new york,2015,True,0.75,1.0,0.85
-200,pinot noir,new york,2024,False,0.75,0.85,0.85
-201,cabernet sauvignon,new york,2020,True,0.75,1.0,0.85
-202,cabernet sauvignon,new york,2019,True,0.75,1.0,0.85
-203,chardonnay,new york,2020,False,0.75,0.85,0.85
-204,chardonnay,new york,2021,False,0.75,0.85,0.85
-205,riesling,new york,2016,False,0.75,0.85,0.85
-206,pinot noir,new york,2023,False,0.75,0.85,0.85
-207,riesling,new york,2024,False,0.75,0.85,0.85
-208,merlot,new york,2024,True,0.75,1.0,0.85
-209,chardonnay,new york,2019,False,0.75,0.85,0.85
-210,cabernet sauvignon,finger lakes,2024,True,0.75,0.95,0.95
-211,riesling,finger lakes,2023,True,0.75,0.95,0.95
-212,chardonnay,finger lakes,2024,False,0.75,0.95,0.95
-213,merlot,finger lakes,2020,False,0.75,0.95,0.95
-214,chardonnay,finger lakes,2023,False,0.75,0.95,0.95
-215,chardonnay,finger lakes,2018,False,0.75,0.95,0.95
-216,cabernet franc,finger lakes,2021,False,0.75,0.95,0.95
-217,chardonnay,finger lakes,2024,False,0.75,0.95,0.95
-218,merlot,cayuga lake,2024,False,0.75,0.95,0.95
-219,cabernet franc,cayuga lake,2015,False,0.75,0.95,0.95
-220,pinot noir,cayuga lake,2018,False,0.75,0.95,0.95
-221,merlot,cayuga lake,2022,True,0.75,0.95,0.95
-222,pinot noir,cayuga lake,2020,False,0.75,0.95,0.95
-223,pinot noir,cayuga lake,2023,False,0.75,0.95,0.95
-224,pinot noir,cayuga lake,2015,True,0.75,0.95,0.95
-225,cabernet sauvignon,cayuga lake,2024,False,0.75,0.95,0.95
-226,cabernet franc,seneca lake,2021,True,0.75,0.95,0.95
-227,cabernet franc,seneca lake,2015,False,0.75,0.95,0.95
-228,pinot noir,seneca lake,2023,False,0.75,0.95,0.95
-229,cabernet sauvignon,seneca lake,2018,False,0.75,0.95,0.95
-230,cabernet sauvignon,seneca lake,2024,False,0.75,0.95,0.95
-231,riesling,seneca lake,2024,False,0.75,0.95,0.95
-232,cabernet franc,seneca lake,2019,True,0.75,0.95,0.95
-233,merlot,seneca lake,2015,False,0.75,0.95,0.95
-234,merlot,north fork of long island,2015,False,0.75,0.95,0.95
-235,cabernet franc,north fork of long island,2021,False,0.75,0.95,0.95
-236,pinot noir,north fork of long island,2015,False,0.75,0.95,0.95
-237,pinot noir,north fork of long island,2021,False,0.75,0.95,0.95
-238,pinot noir,north fork of long island,2022,True,0.75,0.95,0.95
-239,cabernet sauvignon,north fork of long island,2024,False,0.75,0.95,0.95
-240,cabernet franc,north fork of long island,2018,True,0.75,0.95,0.95
-241,pinot noir,north fork of long island,2018,False,0.75,0.95,0.95
-242,chardonnay,hamptons,2022,True,0.75,0.95,0.95
-243,pinot noir,hamptons,2022,False,0.75,0.95,0.95
-244,cabernet franc,hamptons,2015,True,0.75,0.95,0.95
-245,cabernet sauvignon,hamptons,2024,False,0.75,0.95,0.95
-246,cabernet franc,hamptons,2016,False,0.75,0.95,0.95
-247,riesling,hamptons,2024,False,0.75,0.95,0.95
-248,chardonnay,hamptons,2024,False,0.75,0.95,0.95
-249,pinot noir,hamptons,2015,True,0.75,0.95,0.95
-250,merlot,hudson river region,2020,False,0.75,0.95,0.95
-251,merlot,hudson river region,2017,False,0.75,0.95,0.95
-252,cabernet franc,hudson river region,2021,False,0.75,0.95,0.95
-253,chardonnay,hudson river region,2018,False,0.75,0.95,0.95
-254,cabernet sauvignon,hudson river region,2022,False,0.75,0.95,0.95
-255,pinot noir,hudson river region,2017,False,0.75,0.95,0.95
-256,pinot noir,hudson river region,2017,False,0.75,0.95,0.95
-257,riesling,hudson river region,2024,False,0.75,0.95,0.95
-258,pinot noir,lake erie,2019,False,0.75,0.95,0.95
-259,riesling,lake erie,2022,False,0.75,0.95,0.95
-260,cabernet franc,lake erie,2019,True,0.75,0.95,0.95
-261,merlot,lake erie,2021,False,0.75,0.95,0.95
-262,chardonnay,lake erie,2018,True,0.75,0.95,0.95
-263,pinot noir,lake erie,2023,False,0.75,0.95,0.95
-264,cabernet sauvignon,lake erie,2024,True,0.75,0.95,0.95
-265,chardonnay,lake erie,2015,False,0.75,0.95,0.95
+grape,region,vintage,estate,grape_law,region_law,vintage_law,country,designation
+chardonnay,wa,2015,False,0.75,0.95,0.85,washington,Country
+pinot gris,wa,2024,False,0.75,0.95,0.85,washington,Country
+pinot gris,wa,2018,False,0.75,0.95,0.85,washington,Country
+chardonnay,wa,2015,False,0.75,0.95,0.85,washington,Country
+cabernet sauvignon,wa,2022,False,0.75,0.95,0.85,washington,Country
+merlot,wa,2020,False,0.75,0.95,0.85,washington,Country
+cabernet sauvignon,wa,2023,False,0.75,0.95,0.85,washington,Country
+pinot gris,wa,2024,False,0.75,0.95,0.85,washington,Country
+chardonnay,wa,2023,False,0.75,0.95,0.85,washington,Country
+cabernet sauvignon,wa,2016,False,0.75,0.95,0.85,washington,Country
+cabernet sauvignon,wa,2018,True,0.75,1.0,0.85,washington,Estate
+pinot gris,wa,2018,False,0.75,0.95,0.85,washington,Country
+chardonnay,wa,2019,True,0.75,1.0,0.85,washington,Estate
+pinot gris,wa,2021,False,0.75,0.95,0.85,washington,Country
+merlot,wa,2019,False,0.75,0.95,0.85,washington,Country
+syrah,wa,2024,False,0.75,0.95,0.85,washington,Country
+riesling,wa,2017,False,0.75,0.95,0.85,washington,Country
+merlot,wa,2016,False,0.75,0.95,0.85,washington,Country
+pinot gris,washington,2019,True,0.75,1.0,0.85,washington,Estate
+merlot,washington,2023,False,0.75,0.95,0.85,washington,Country
+pinot gris,washington,2021,False,0.75,0.95,0.85,washington,Country
+merlot,washington,2019,False,0.75,0.95,0.85,washington,Country
+merlot,washington,2019,False,0.75,0.95,0.85,washington,Country
+riesling,washington,2015,False,0.75,0.95,0.85,washington,Country
+syrah,washington,2020,False,0.75,0.95,0.85,washington,Country
+syrah,washington,2024,False,0.75,0.95,0.85,washington,Country
+merlot,washington,2015,False,0.75,0.95,0.85,washington,Country
+cabernet sauvignon,washington,2020,True,0.75,1.0,0.85,washington,Estate
+cabernet sauvignon,washington,2015,False,0.75,0.95,0.85,washington,Country
+chardonnay,washington,2015,False,0.75,0.95,0.85,washington,Country
+syrah,washington,2021,False,0.75,0.95,0.85,washington,Country
+syrah,washington,2016,False,0.75,0.95,0.85,washington,Country
+riesling,washington,2024,False,0.75,0.95,0.85,washington,Country
+merlot,washington,2019,False,0.75,0.95,0.85,washington,Country
+merlot,washington,2018,True,0.75,1.0,0.85,washington,Estate
+cabernet sauvignon,washington,2022,False,0.75,0.95,0.85,washington,Country
+merlot,columbia valley,2017,False,0.75,0.95,0.95,washington,AVA
+syrah,columbia valley,2020,True,0.75,1.0,0.95,washington,Estate
+cabernet sauvignon,columbia valley,2024,False,0.75,0.95,0.95,washington,AVA
+riesling,columbia valley,2019,False,0.75,0.95,0.95,washington,AVA
+riesling,columbia valley,2021,False,0.75,0.95,0.95,washington,AVA
+cabernet sauvignon,columbia valley,2015,False,0.75,0.95,0.95,washington,AVA
+merlot,yakima valley,2023,True,0.75,1.0,0.95,washington,Estate
+pinot gris,yakima valley,2023,False,0.75,0.95,0.95,washington,AVA
+merlot,yakima valley,2019,False,0.75,0.95,0.95,washington,AVA
+syrah,yakima valley,2015,True,0.75,1.0,0.95,washington,Estate
+syrah,yakima valley,2020,True,0.75,1.0,0.95,washington,Estate
+cabernet sauvignon,yakima valley,2016,True,0.75,1.0,0.95,washington,Estate
+cabernet sauvignon,walla walla valley,2021,False,0.75,0.95,0.95,washington,AVA
+cabernet sauvignon,walla walla valley,2021,False,0.75,0.95,0.95,washington,AVA
+riesling,walla walla valley,2024,False,0.75,0.95,0.95,washington,AVA
+cabernet sauvignon,walla walla valley,2021,False,0.75,0.95,0.95,washington,AVA
+cabernet sauvignon,walla walla valley,2019,False,0.75,0.95,0.95,washington,AVA
+merlot,walla walla valley,2016,True,0.75,1.0,0.95,washington,Estate
+syrah,red mountain,2017,False,0.75,0.95,0.95,washington,AVA
+riesling,red mountain,2016,False,0.75,0.95,0.95,washington,AVA
+pinot gris,red mountain,2024,False,0.75,0.95,0.95,washington,AVA
+riesling,red mountain,2024,True,0.75,1.0,0.95,washington,Estate
+chardonnay,red mountain,2017,False,0.75,0.95,0.95,washington,AVA
+syrah,red mountain,2024,True,0.75,1.0,0.95,washington,Estate
+pinot gris,horse heaven hills,2020,False,0.75,0.95,0.95,washington,AVA
+syrah,horse heaven hills,2021,False,0.75,0.95,0.95,washington,AVA
+merlot,horse heaven hills,2017,False,0.75,0.95,0.95,washington,AVA
+merlot,horse heaven hills,2019,False,0.75,0.95,0.95,washington,AVA
+syrah,horse heaven hills,2017,False,0.75,0.95,0.95,washington,AVA
+merlot,horse heaven hills,2022,False,0.75,0.95,0.95,washington,AVA
+cabernet sauvignon,wahluke slope,2015,False,0.75,0.95,0.95,washington,AVA
+riesling,wahluke slope,2020,False,0.75,0.95,0.95,washington,AVA
+riesling,wahluke slope,2016,False,0.75,0.95,0.95,washington,AVA
+pinot gris,wahluke slope,2016,True,0.75,1.0,0.95,washington,Estate
+riesling,wahluke slope,2023,False,0.75,0.95,0.95,washington,AVA
+merlot,wahluke slope,2022,False,0.75,0.95,0.95,washington,AVA
+pinot gris,rattlesnake hills,2020,False,0.75,0.95,0.95,washington,AVA
+cabernet sauvignon,rattlesnake hills,2017,False,0.75,0.95,0.95,washington,AVA
+riesling,rattlesnake hills,2020,True,0.75,1.0,0.95,washington,Estate
+merlot,rattlesnake hills,2023,False,0.75,0.95,0.95,washington,AVA
+cabernet sauvignon,rattlesnake hills,2022,False,0.75,0.95,0.95,washington,AVA
+syrah,rattlesnake hills,2016,False,0.75,0.95,0.95,washington,AVA
+syrah,snipes mountain,2016,False,0.75,0.95,0.95,washington,AVA
+cabernet sauvignon,snipes mountain,2016,True,0.75,1.0,0.95,washington,Estate
+cabernet sauvignon,snipes mountain,2015,False,0.75,0.95,0.95,washington,AVA
+merlot,snipes mountain,2017,False,0.75,0.95,0.95,washington,AVA
+riesling,snipes mountain,2016,False,0.75,0.95,0.95,washington,AVA
+chardonnay,snipes mountain,2020,False,0.75,0.95,0.95,washington,AVA
+pinot gris,or,2015,True,0.9,1.0,0.85,oregon,Estate
+pinot noir,or,2015,False,0.9,1.0,0.85,oregon,Country
+merlot,or,2021,False,0.75,1.0,0.85,oregon,Country
+pinot gris,or,2016,False,0.9,1.0,0.85,oregon,Country
+pinot gris,or,2022,False,0.9,1.0,0.85,oregon,Country
+pinot gris,or,2021,False,0.9,1.0,0.85,oregon,Country
+pinot gris,or,2016,False,0.9,1.0,0.85,oregon,Country
+zinfandel,or,2023,False,0.75,1.0,0.85,oregon,Country
+petite sirah,or,2020,False,0.75,1.0,0.85,oregon,Country
+semillion,or,2018,False,0.75,1.0,0.85,oregon,Country
+cabernet sauvignon,or,2018,True,0.75,1.0,0.85,oregon,Estate
+roussanne,or,2017,False,0.75,1.0,0.85,oregon,Country
+merlot,or,2022,False,0.75,1.0,0.85,oregon,Country
+pinot noir,or,2019,True,0.9,1.0,0.85,oregon,Estate
+chardonnay,or,2024,False,0.9,1.0,0.85,oregon,Country
+semillion,or,2019,True,0.75,1.0,0.85,oregon,Estate
+petit verdot,or,2015,False,0.75,1.0,0.85,oregon,Country
+petite sirah,or,2023,True,0.75,1.0,0.85,oregon,Estate
+petite sirah,oregon,2022,False,0.75,1.0,0.85,oregon,Country
+chardonnay,oregon,2022,False,0.9,1.0,0.85,oregon,Country
+petit verdot,oregon,2018,False,0.75,1.0,0.85,oregon,Country
+chardonnay,oregon,2016,False,0.9,1.0,0.85,oregon,Country
+zinfandel,oregon,2020,True,0.75,1.0,0.85,oregon,Estate
+cabernet franc,oregon,2018,False,0.75,1.0,0.85,oregon,Country
+pinot noir,oregon,2021,False,0.9,1.0,0.85,oregon,Country
+marsanne,oregon,2020,False,0.75,1.0,0.85,oregon,Country
+carmenere,oregon,2022,True,0.75,1.0,0.85,oregon,Estate
+pinot gris,oregon,2020,False,0.9,1.0,0.85,oregon,Country
+syrah,oregon,2020,False,0.75,1.0,0.85,oregon,Country
+petite sirah,oregon,2021,True,0.75,1.0,0.85,oregon,Estate
+petite sirah,oregon,2023,False,0.75,1.0,0.85,oregon,Country
+tempranillo,oregon,2015,False,0.75,1.0,0.85,oregon,Country
+pinot gris,oregon,2019,True,0.9,1.0,0.85,oregon,Estate
+grenache,oregon,2017,False,0.75,1.0,0.85,oregon,Country
+cabernet sauvignon,oregon,2024,True,0.75,1.0,0.85,oregon,Estate
+petit verdot,oregon,2021,False,0.75,1.0,0.85,oregon,Country
+pinot noir,willamette valley,2015,False,0.9,0.95,0.95,oregon,AVA
+grenache,willamette valley,2016,False,0.75,0.95,0.95,oregon,AVA
+pinot gris,willamette valley,2023,False,0.9,0.95,0.95,oregon,AVA
+sauvignon blanc,willamette valley,2018,False,0.75,0.95,0.95,oregon,AVA
+pinot noir,willamette valley,2021,False,0.9,0.95,0.95,oregon,AVA
+tempranillo,willamette valley,2020,True,0.75,1.0,0.95,oregon,Estate
+sangiovese,dundee hills,2024,False,0.75,0.95,0.95,oregon,AVA
+malbec,dundee hills,2019,True,0.75,1.0,0.95,oregon,Estate
+pinot gris,dundee hills,2017,False,0.9,0.95,0.95,oregon,AVA
+chardonnay,dundee hills,2020,False,0.9,0.95,0.95,oregon,AVA
+malbec,dundee hills,2020,False,0.75,0.95,0.95,oregon,AVA
+pinot gris,dundee hills,2016,False,0.9,0.95,0.95,oregon,AVA
+grenache,yamhill-carlton,2022,False,0.75,0.95,0.95,oregon,AVA
+pinot gris,yamhill-carlton,2018,True,0.9,1.0,0.95,oregon,Estate
+mourvedre,yamhill-carlton,2023,True,0.75,1.0,0.95,oregon,Estate
+petit verdot,yamhill-carlton,2020,False,0.75,0.95,0.95,oregon,AVA
+pinot gris,yamhill-carlton,2024,False,0.9,0.95,0.95,oregon,AVA
+chardonnay,yamhill-carlton,2020,False,0.9,0.95,0.95,oregon,AVA
+grenache,mcminnville,2018,False,0.75,0.95,0.95,oregon,AVA
+carmenere,mcminnville,2016,True,0.75,1.0,0.95,oregon,Estate
+pinot noir,mcminnville,2015,False,0.9,0.95,0.95,oregon,AVA
+pinot noir,mcminnville,2022,True,0.9,1.0,0.95,oregon,Estate
+petit verdot,mcminnville,2019,False,0.75,0.95,0.95,oregon,AVA
+pinot noir,mcminnville,2021,True,0.9,1.0,0.95,oregon,Estate
+chardonnay,ribbon ridge,2017,False,0.9,0.95,0.95,oregon,AVA
+carmenere,ribbon ridge,2020,False,0.75,0.95,0.95,oregon,AVA
+pinot gris,ribbon ridge,2024,False,0.9,0.95,0.95,oregon,AVA
+sangiovese,ribbon ridge,2017,False,0.75,0.95,0.95,oregon,AVA
+pinot gris,ribbon ridge,2019,True,0.9,1.0,0.95,oregon,Estate
+pinot noir,ribbon ridge,2016,True,0.9,1.0,0.95,oregon,Estate
+pinot noir,chehalem mountains,2018,False,0.9,0.95,0.95,oregon,AVA
+chardonnay,chehalem mountains,2016,False,0.9,0.95,0.95,oregon,AVA
+pinot gris,chehalem mountains,2015,False,0.9,0.95,0.95,oregon,AVA
+chardonnay,chehalem mountains,2022,False,0.9,0.95,0.95,oregon,AVA
+pinot gris,chehalem mountains,2020,False,0.9,0.95,0.95,oregon,AVA
+tempranillo,chehalem mountains,2020,False,0.75,0.95,0.95,oregon,AVA
+marsanne,umpqua valley,2020,False,0.75,0.95,0.95,oregon,AVA
+chardonnay,umpqua valley,2024,False,0.9,0.95,0.95,oregon,AVA
+chardonnay,umpqua valley,2021,False,0.9,0.95,0.95,oregon,AVA
+mourvedre,umpqua valley,2020,False,0.75,0.95,0.95,oregon,AVA
+merlot,umpqua valley,2023,False,0.75,0.95,0.95,oregon,AVA
+grenache,umpqua valley,2023,False,0.75,0.95,0.95,oregon,AVA
+carmenere,rogue valley,2022,False,0.75,0.95,0.95,oregon,AVA
+pinot gris,rogue valley,2020,True,0.9,1.0,0.95,oregon,Estate
+pinot noir,rogue valley,2015,True,0.9,1.0,0.95,oregon,Estate
+pinot gris,rogue valley,2016,True,0.9,1.0,0.95,oregon,Estate
+chardonnay,rogue valley,2021,False,0.9,0.95,0.95,oregon,AVA
+sangiovese,rogue valley,2015,False,0.75,0.95,0.95,oregon,AVA
+zinfandel,applegate valley,2020,True,0.75,1.0,0.95,oregon,Estate
+pinot gris,applegate valley,2019,False,0.9,0.95,0.95,oregon,AVA
+pinot noir,applegate valley,2018,False,0.9,0.95,0.95,oregon,AVA
+tempranillo,applegate valley,2015,False,0.75,0.95,0.95,oregon,AVA
+chardonnay,applegate valley,2024,False,0.9,0.95,0.95,oregon,AVA
+pinot gris,applegate valley,2015,False,0.9,0.95,0.95,oregon,AVA
+merlot,ny,2020,True,0.75,1.0,0.85,new york,Estate
+chardonnay,ny,2017,False,0.75,0.85,0.85,new york,Country
+chardonnay,ny,2020,False,0.75,0.85,0.85,new york,Country
+cabernet sauvignon,ny,2024,False,0.75,0.85,0.85,new york,Country
+chardonnay,ny,2018,False,0.75,0.85,0.85,new york,Country
+chardonnay,ny,2022,False,0.75,0.85,0.85,new york,Country
+pinot noir,ny,2019,True,0.75,1.0,0.85,new york,Estate
+cabernet sauvignon,ny,2018,False,0.75,0.85,0.85,new york,Country
+riesling,ny,2023,False,0.75,0.85,0.85,new york,Country
+cabernet sauvignon,ny,2020,True,0.75,1.0,0.85,new york,Estate
+cabernet franc,ny,2015,False,0.75,0.85,0.85,new york,Country
+cabernet franc,ny,2020,False,0.75,0.85,0.85,new york,Country
+cabernet franc,ny,2017,False,0.75,0.85,0.85,new york,Country
+merlot,ny,2016,False,0.75,0.85,0.85,new york,Country
+cabernet franc,ny,2024,False,0.75,0.85,0.85,new york,Country
+riesling,ny,2019,True,0.75,1.0,0.85,new york,Estate
+cabernet sauvignon,ny,2024,False,0.75,0.85,0.85,new york,Country
+pinot noir,ny,2018,False,0.75,0.85,0.85,new york,Country
+cabernet franc,new york,2018,False,0.75,0.85,0.85,new york,Country
+merlot,new york,2018,False,0.75,0.85,0.85,new york,Country
+cabernet franc,new york,2017,True,0.75,1.0,0.85,new york,Estate
+pinot noir,new york,2023,False,0.75,0.85,0.85,new york,Country
+pinot noir,new york,2023,False,0.75,0.85,0.85,new york,Country
+pinot noir,new york,2022,False,0.75,0.85,0.85,new york,Country
+riesling,new york,2015,False,0.75,0.85,0.85,new york,Country
+cabernet sauvignon,new york,2020,True,0.75,1.0,0.85,new york,Estate
+riesling,new york,2017,False,0.75,0.85,0.85,new york,Country
+cabernet franc,new york,2020,True,0.75,1.0,0.85,new york,Estate
+merlot,new york,2017,True,0.75,1.0,0.85,new york,Estate
+riesling,new york,2024,False,0.75,0.85,0.85,new york,Country
+riesling,new york,2024,False,0.75,0.85,0.85,new york,Country
+riesling,new york,2022,False,0.75,0.85,0.85,new york,Country
+merlot,new york,2022,False,0.75,0.85,0.85,new york,Country
+cabernet sauvignon,new york,2019,False,0.75,0.85,0.85,new york,Country
+chardonnay,new york,2018,True,0.75,1.0,0.85,new york,Estate
+pinot noir,new york,2018,False,0.75,0.85,0.85,new york,Country
+pinot noir,finger lakes,2024,False,0.75,0.95,0.95,new york,AVA
+riesling,finger lakes,2022,False,0.75,0.95,0.95,new york,AVA
+merlot,finger lakes,2015,True,0.75,0.95,0.95,new york,Estate
+riesling,finger lakes,2024,False,0.75,0.95,0.95,new york,AVA
+cabernet sauvignon,finger lakes,2021,False,0.75,0.95,0.95,new york,AVA
+merlot,finger lakes,2020,False,0.75,0.95,0.95,new york,AVA
+cabernet franc,finger lakes,2018,False,0.75,0.95,0.95,new york,AVA
+cabernet franc,finger lakes,2017,False,0.75,0.95,0.95,new york,AVA
+chardonnay,cayuga lake,2019,True,0.75,0.95,0.95,new york,Estate
+riesling,cayuga lake,2019,False,0.75,0.95,0.95,new york,AVA
+pinot noir,cayuga lake,2020,True,0.75,0.95,0.95,new york,Estate
+cabernet franc,cayuga lake,2015,False,0.75,0.95,0.95,new york,AVA
+cabernet sauvignon,cayuga lake,2016,True,0.75,0.95,0.95,new york,Estate
+cabernet franc,cayuga lake,2017,True,0.75,0.95,0.95,new york,Estate
+riesling,cayuga lake,2019,True,0.75,0.95,0.95,new york,Estate
+cabernet franc,cayuga lake,2017,False,0.75,0.95,0.95,new york,AVA
+riesling,seneca lake,2016,False,0.75,0.95,0.95,new york,AVA
+riesling,seneca lake,2017,True,0.75,0.95,0.95,new york,Estate
+pinot noir,seneca lake,2015,True,0.75,0.95,0.95,new york,Estate
+merlot,seneca lake,2020,False,0.75,0.95,0.95,new york,AVA
+chardonnay,seneca lake,2015,True,0.75,0.95,0.95,new york,Estate
+cabernet sauvignon,seneca lake,2015,False,0.75,0.95,0.95,new york,AVA
+cabernet sauvignon,seneca lake,2021,True,0.75,0.95,0.95,new york,Estate
+pinot noir,seneca lake,2019,False,0.75,0.95,0.95,new york,AVA
+cabernet franc,north fork of long island,2024,False,0.75,0.95,0.95,new york,AVA
+cabernet franc,north fork of long island,2023,False,0.75,0.95,0.95,new york,AVA
+riesling,north fork of long island,2023,False,0.75,0.95,0.95,new york,AVA
+merlot,north fork of long island,2018,False,0.75,0.95,0.95,new york,AVA
+riesling,north fork of long island,2021,False,0.75,0.95,0.95,new york,AVA
+cabernet franc,north fork of long island,2016,True,0.75,0.95,0.95,new york,Estate
+cabernet sauvignon,north fork of long island,2018,False,0.75,0.95,0.95,new york,AVA
+pinot noir,north fork of long island,2019,True,0.75,0.95,0.95,new york,Estate
+pinot noir,hamptons,2016,True,0.75,0.95,0.95,new york,Estate
+pinot noir,hamptons,2016,False,0.75,0.95,0.95,new york,AVA
+pinot noir,hamptons,2019,False,0.75,0.95,0.95,new york,AVA
+cabernet sauvignon,hamptons,2015,False,0.75,0.95,0.95,new york,AVA
+merlot,hamptons,2016,True,0.75,0.95,0.95,new york,Estate
+merlot,hamptons,2019,False,0.75,0.95,0.95,new york,AVA
+riesling,hamptons,2015,False,0.75,0.95,0.95,new york,AVA
+cabernet franc,hamptons,2018,False,0.75,0.95,0.95,new york,AVA
+riesling,hudson river region,2019,False,0.75,0.95,0.95,new york,AVA
+cabernet sauvignon,hudson river region,2015,True,0.75,0.95,0.95,new york,Estate
+chardonnay,hudson river region,2023,True,0.75,0.95,0.95,new york,Estate
+cabernet sauvignon,hudson river region,2024,False,0.75,0.95,0.95,new york,AVA
+chardonnay,hudson river region,2023,False,0.75,0.95,0.95,new york,AVA
+cabernet sauvignon,hudson river region,2023,False,0.75,0.95,0.95,new york,AVA
+chardonnay,hudson river region,2015,False,0.75,0.95,0.95,new york,AVA
+chardonnay,hudson river region,2018,False,0.75,0.95,0.95,new york,AVA
+merlot,lake erie,2021,True,0.75,0.95,0.95,new york,Estate
+chardonnay,lake erie,2018,False,0.75,0.95,0.95,new york,AVA
+pinot noir,lake erie,2019,False,0.75,0.95,0.95,new york,AVA
+cabernet franc,lake erie,2017,False,0.75,0.95,0.95,new york,AVA
+cabernet franc,lake erie,2016,False,0.75,0.95,0.95,new york,AVA
+cabernet sauvignon,lake erie,2022,True,0.75,0.95,0.95,new york,Estate
+chardonnay,lake erie,2016,False,0.75,0.95,0.95,new york,AVA
+cabernet sauvignon,lake erie,2024,False,0.75,0.95,0.95,new york,AVA

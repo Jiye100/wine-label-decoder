@@ -1,10 +1,10 @@
 from PIL import Image
 import fuzzy_match
 import os
-with open('fuzzy_match_expected.txt', 'r') as expect:
-    content = expect.read()
-with open('fuzzy_match_expected.txt', 'w') as expect:
-    expect.write(content.lower())
+#with open('fuzzy_match_expected.txt', 'r') as expect:
+#    content = expect.read()
+#with open('fuzzy_match_expected.txt', 'w') as expect:
+#    expect.write(content.lower())
 
 f = open('fuzzy_match_result.txt', 'w')
 

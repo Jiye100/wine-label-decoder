@@ -1,0 +1,131 @@
+grape,region,vintage,estate,grape_law,region_law,vintage_law,country,designation
+sauvignon blanc,napa valley,2019,False,0.75,0.85,0.95,california,AVA
+sauvignon blanc,napa valley,2019,False,0.75,0.85,0.95,california,AVA
+zinfandel,napa valley,2016,False,0.75,0.85,0.95,california,AVA
+sauvignon blanc,napa valley,2017,False,0.75,0.85,0.95,california,AVA
+cabernet sauvignon,napa valley,2024,False,0.75,0.85,0.95,california,AVA
+cabernet sauvignon,napa valley,2021,False,0.75,0.85,0.95,california,AVA
+merlot,napa valley,2021,True,0.75,1.0,0.95,california,Estate
+sauvignon blanc,napa valley,2018,False,0.75,0.85,0.95,california,AVA
+zinfandel,napa valley,2015,False,0.75,0.85,0.95,california,AVA
+chardonnay,napa valley,2018,False,0.75,0.85,0.95,california,AVA
+cabernet sauvignon,sonoma valley,2019,False,0.75,0.85,0.95,california,AVA
+sauvignon blanc,sonoma valley,2019,True,0.75,1.0,0.95,california,Estate
+merlot,sonoma valley,2022,False,0.75,0.85,0.95,california,AVA
+zinfandel,sonoma valley,2022,True,0.75,1.0,0.95,california,Estate
+zinfandel,sonoma valley,2018,False,0.75,0.85,0.95,california,AVA
+zinfandel,sonoma valley,2023,False,0.75,0.85,0.95,california,AVA
+zinfandel,sonoma valley,2021,False,0.75,0.85,0.95,california,AVA
+zinfandel,sonoma valley,2019,True,0.75,1.0,0.95,california,Estate
+pinot noir,sonoma valley,2021,False,0.75,0.85,0.95,california,AVA
+zinfandel,sonoma valley,2015,False,0.75,0.85,0.95,california,AVA
+pinot noir,russian river valley,2022,True,0.75,1.0,0.95,california,Estate
+zinfandel,russian river valley,2023,False,0.75,0.85,0.95,california,AVA
+pinot noir,russian river valley,2019,False,0.75,0.85,0.95,california,AVA
+zinfandel,russian river valley,2023,False,0.75,0.85,0.95,california,AVA
+sauvignon blanc,russian river valley,2019,False,0.75,0.85,0.95,california,AVA
+sauvignon blanc,russian river valley,2020,False,0.75,0.85,0.95,california,AVA
+zinfandel,russian river valley,2015,True,0.75,1.0,0.95,california,Estate
+chardonnay,russian river valley,2021,False,0.75,0.85,0.95,california,AVA
+sauvignon blanc,russian river valley,2019,False,0.75,0.85,0.95,california,AVA
+merlot,russian river valley,2021,False,0.75,0.85,0.95,california,AVA
+sauvignon blanc,mendocino,2016,False,0.75,0.85,0.95,california,AVA
+cabernet sauvignon,mendocino,2022,False,0.75,0.85,0.95,california,AVA
+sauvignon blanc,mendocino,2020,False,0.75,0.85,0.95,california,AVA
+pinot noir,mendocino,2017,False,0.75,0.85,0.95,california,AVA
+zinfandel,mendocino,2020,False,0.75,0.85,0.95,california,AVA
+pinot noir,mendocino,2024,True,0.75,1.0,0.95,california,Estate
+cabernet sauvignon,mendocino,2024,False,0.75,0.85,0.95,california,AVA
+chardonnay,mendocino,2015,True,0.75,1.0,0.95,california,Estate
+pinot noir,mendocino,2022,False,0.75,0.85,0.95,california,AVA
+cabernet sauvignon,mendocino,2019,True,0.75,1.0,0.95,california,Estate
+pinot noir,santa barbara,2020,False,0.75,0.85,0.95,california,AVA
+cabernet sauvignon,santa barbara,2015,False,0.75,0.85,0.95,california,AVA
+pinot noir,santa barbara,2019,False,0.75,0.85,0.95,california,AVA
+zinfandel,santa barbara,2019,False,0.75,0.85,0.95,california,AVA
+zinfandel,santa barbara,2018,False,0.75,0.85,0.95,california,AVA
+zinfandel,santa barbara,2016,True,0.75,1.0,0.95,california,Estate
+zinfandel,santa barbara,2017,False,0.75,0.85,0.95,california,AVA
+merlot,santa barbara,2022,False,0.75,0.85,0.95,california,AVA
+chardonnay,santa barbara,2022,False,0.75,0.85,0.95,california,AVA
+pinot noir,santa barbara,2017,True,0.75,1.0,0.95,california,Estate
+pinot noir,paso robles,2017,True,0.75,1.0,0.95,california,Estate
+cabernet sauvignon,paso robles,2023,True,0.75,1.0,0.95,california,Estate
+cabernet sauvignon,paso robles,2022,False,0.75,0.85,0.95,california,AVA
+pinot noir,paso robles,2019,False,0.75,0.85,0.95,california,AVA
+merlot,paso robles,2018,True,0.75,1.0,0.95,california,Estate
+sauvignon blanc,paso robles,2017,False,0.75,0.85,0.95,california,AVA
+chardonnay,paso robles,2020,True,0.75,1.0,0.95,california,Estate
+zinfandel,paso robles,2023,False,0.75,0.85,0.95,california,AVA
+merlot,paso robles,2016,False,0.75,0.85,0.95,california,AVA
+merlot,paso robles,2021,False,0.75,0.85,0.95,california,AVA
+zinfandel,monterey county,2018,True,0.75,1.0,0.85,california,Estate
+cabernet sauvignon,monterey county,2019,False,0.75,0.75,0.85,california,County
+merlot,monterey county,2019,False,0.75,0.75,0.85,california,County
+cabernet sauvignon,monterey county,2022,False,0.75,0.75,0.85,california,County
+merlot,monterey county,2017,True,0.75,1.0,0.85,california,Estate
+merlot,monterey county,2015,False,0.75,0.75,0.85,california,County
+pinot noir,monterey county,2017,True,0.75,1.0,0.85,california,Estate
+sauvignon blanc,monterey county,2021,False,0.75,0.75,0.85,california,County
+merlot,monterey county,2024,False,0.75,0.75,0.85,california,County
+chardonnay,monterey county,2021,False,0.75,0.75,0.85,california,County
+chardonnay,lodi,2019,False,0.75,0.85,0.95,california,AVA
+zinfandel,lodi,2017,True,0.75,1.0,0.95,california,Estate
+pinot noir,lodi,2016,False,0.75,0.85,0.95,california,AVA
+merlot,lodi,2023,True,0.75,1.0,0.95,california,Estate
+pinot noir,lodi,2016,False,0.75,0.85,0.95,california,AVA
+pinot noir,lodi,2019,True,0.75,1.0,0.95,california,Estate
+zinfandel,lodi,2018,False,0.75,0.85,0.95,california,AVA
+chardonnay,lodi,2015,False,0.75,0.85,0.95,california,AVA
+merlot,lodi,2022,False,0.75,0.85,0.95,california,AVA
+sauvignon blanc,lodi,2015,False,0.75,0.85,0.95,california,AVA
+chardonnay,central coast,2021,False,0.75,0.85,0.95,california,AVA
+merlot,central coast,2021,False,0.75,0.85,0.95,california,AVA
+chardonnay,central coast,2023,False,0.75,0.85,0.95,california,AVA
+sauvignon blanc,central coast,2015,False,0.75,0.85,0.95,california,AVA
+merlot,central coast,2023,True,0.75,1.0,0.95,california,Estate
+chardonnay,central coast,2017,True,0.75,1.0,0.95,california,Estate
+sauvignon blanc,central coast,2016,False,0.75,0.85,0.95,california,AVA
+merlot,central coast,2021,False,0.75,0.85,0.95,california,AVA
+zinfandel,central coast,2018,True,0.75,1.0,0.95,california,Estate
+zinfandel,central coast,2015,True,0.75,1.0,0.95,california,Estate
+zinfandel,temecula valley,2022,True,0.75,1.0,0.95,california,Estate
+pinot noir,temecula valley,2024,False,0.75,0.85,0.95,california,AVA
+pinot noir,temecula valley,2017,False,0.75,0.85,0.95,california,AVA
+merlot,temecula valley,2021,False,0.75,0.85,0.95,california,AVA
+sauvignon blanc,temecula valley,2018,True,0.75,1.0,0.95,california,Estate
+cabernet sauvignon,temecula valley,2021,False,0.75,0.85,0.95,california,AVA
+zinfandel,temecula valley,2017,True,0.75,1.0,0.95,california,Estate
+merlot,temecula valley,2016,False,0.75,0.85,0.95,california,AVA
+pinot noir,temecula valley,2022,False,0.75,0.85,0.95,california,AVA
+merlot,temecula valley,2024,False,0.75,0.85,0.95,california,AVA
+pinot noir,california,2015,True,0.75,1.0,0.85,california,Estate
+pinot noir,california,2016,False,0.75,1.0,0.85,california,Country
+sauvignon blanc,california,2015,False,0.75,1.0,0.85,california,Country
+zinfandel,california,2017,True,0.75,1.0,0.85,california,Estate
+cabernet sauvignon,california,2016,False,0.75,1.0,0.85,california,Country
+sauvignon blanc,california,2023,False,0.75,1.0,0.85,california,Country
+chardonnay,california,2018,False,0.75,1.0,0.85,california,Country
+sauvignon blanc,california,2024,False,0.75,1.0,0.85,california,Country
+pinot noir,california,2016,False,0.75,1.0,0.85,california,Country
+chardonnay,california,2022,False,0.75,1.0,0.85,california,Country
+pinot noir,san luis obispo county,2015,False,0.75,0.75,0.85,california,County
+zinfandel,san luis obispo county,2015,False,0.75,0.75,0.85,california,County
+cabernet sauvignon,san luis obispo county,2019,False,0.75,0.75,0.85,california,County
+chardonnay,san luis obispo county,2021,True,0.75,1.0,0.85,california,Estate
+zinfandel,san luis obispo county,2018,True,0.75,1.0,0.85,california,Estate
+pinot noir,san luis obispo county,2017,False,0.75,0.75,0.85,california,County
+cabernet sauvignon,san luis obispo county,2018,False,0.75,0.75,0.85,california,County
+chardonnay,san luis obispo county,2020,False,0.75,0.75,0.85,california,County
+zinfandel,san luis obispo county,2022,False,0.75,0.75,0.85,california,County
+pinot noir,san luis obispo county,2016,False,0.75,0.75,0.85,california,County
+zinfandel,ca,2015,False,0.75,1.0,0.85,california,Country
+merlot,ca,2023,False,0.75,1.0,0.85,california,Country
+chardonnay,ca,2019,False,0.75,1.0,0.85,california,Country
+zinfandel,ca,2016,False,0.75,1.0,0.85,california,Country
+pinot noir,ca,2017,True,0.75,1.0,0.85,california,Estate
+merlot,ca,2019,False,0.75,1.0,0.85,california,Country
+merlot,ca,2017,False,0.75,1.0,0.85,california,Country
+zinfandel,ca,2022,False,0.75,1.0,0.85,california,Country
+pinot noir,ca,2023,True,0.75,1.0,0.85,california,Estate
+chardonnay,ca,2021,True,0.75,1.0,0.85,california,Estate
