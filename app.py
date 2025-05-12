@@ -81,8 +81,8 @@ else:
             designation = "WO"
 
 # --- Final fallback if none detected ---
-if designation == '':
-    if country in ["argentina", "chile", "south africa"]:
+if designation == '' or designation == 'Unknown':
+    if country in ["argentina", "chile", "south africa", "australia", "new zealand"]:
         designation = "Country"
     else:
         designation = "Unknown"  # If it's not recognized

@@ -8,8 +8,9 @@ import csv
 ny_or_wa_df = pd.read_csv(r'dataset/NY_OR_WA_wines.csv')
 ca_df = pd.read_csv(r'dataset/CA_wines.csv')
 cl_arg_za_df = pd.read_csv(r'dataset/CL_ARG_ZA_wines.csv')
+nz_au_df = pd.read_csv(r'dataset/NZ_AU_wines.csv')
 
-df = pd.concat([ny_or_wa_df, ca_df, cl_arg_za_df], ignore_index=True)
+df = pd.concat([ny_or_wa_df, ca_df, cl_arg_za_df, nz_au_df], ignore_index=True)
 
 
 # Assigning category value to integer

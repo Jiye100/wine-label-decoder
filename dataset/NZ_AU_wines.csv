@@ -1,0 +1,286 @@
+grape,region,vintage,estate,grape_law,region_law,vintage_law,country,designation
+pinot noir,marlborough,2022,False,0.85,0.85,0.85,new zealand,GI
+pinot gris,marlborough,2017,True,0.85,0.85,0.85,new zealand,GI
+cabernet sauvignon,marlborough,2022,False,0.85,0.85,0.85,new zealand,Sub-region
+chardonnay,marlborough,2024,True,0.85,0.85,0.85,new zealand,Country
+pinot gris,marlborough,2017,False,0.85,0.85,0.85,new zealand,Country
+malbec,marlborough,2018,True,0.85,0.85,0.85,new zealand,GI
+merlot,marlborough,2020,True,0.85,0.85,0.85,new zealand,Sub-region
+sauvignon blanc,marlborough,2020,True,0.85,0.85,0.85,new zealand,Sub-region
+malbec,marlborough,2022,True,0.85,0.85,0.85,new zealand,Sub-region
+pinot noir,marlborough,2024,True,0.85,0.85,0.85,new zealand,Country
+riesling,marlborough,2024,True,0.85,0.85,0.85,new zealand,GI
+chardonnay,marlborough,2024,True,0.85,0.85,0.85,new zealand,Country
+pinot noir,marlborough,2023,False,0.85,0.85,0.85,new zealand,GI
+riesling,marlborough,2017,False,0.85,0.85,0.85,new zealand,Sub-region
+malbec,marlborough,2016,True,0.85,0.85,0.85,new zealand,Sub-region
+cabernet sauvignon,martinborough,2015,True,0.85,0.85,0.85,new zealand,GI
+syrah,martinborough,2023,True,0.85,0.85,0.85,new zealand,GI
+pinot gris,martinborough,2016,False,0.85,0.85,0.85,new zealand,Country
+merlot,martinborough,2019,False,0.85,0.85,0.85,new zealand,Country
+pinot gris,martinborough,2024,True,0.85,0.85,0.85,new zealand,Country
+sauvignon blanc,martinborough,2016,False,0.85,0.85,0.85,new zealand,GI
+cabernet sauvignon,martinborough,2023,True,0.85,0.85,0.85,new zealand,Country
+merlot,martinborough,2019,True,0.85,0.85,0.85,new zealand,Sub-region
+pinot gris,martinborough,2018,True,0.85,0.85,0.85,new zealand,Country
+malbec,martinborough,2021,True,0.85,0.85,0.85,new zealand,Country
+merlot,martinborough,2018,True,0.85,0.85,0.85,new zealand,Country
+riesling,martinborough,2015,True,0.85,0.85,0.85,new zealand,GI
+syrah,martinborough,2020,False,0.85,0.85,0.85,new zealand,Country
+sauvignon blanc,martinborough,2024,True,0.85,0.85,0.85,new zealand,GI
+cabernet sauvignon,martinborough,2018,False,0.85,0.85,0.85,new zealand,Sub-region
+pinot gris,central otago,2017,True,0.85,0.85,0.85,new zealand,Country
+pinot gris,central otago,2023,False,0.85,0.85,0.85,new zealand,GI
+shiraz,central otago,2015,False,0.85,0.85,0.85,new zealand,Sub-region
+merlot,central otago,2024,False,0.85,0.85,0.85,new zealand,Country
+cabernet sauvignon,central otago,2017,True,0.85,0.85,0.85,new zealand,Sub-region
+pinot gris,central otago,2022,False,0.85,0.85,0.85,new zealand,Sub-region
+cabernet sauvignon,central otago,2018,False,0.85,0.85,0.85,new zealand,GI
+shiraz,central otago,2017,True,0.85,0.85,0.85,new zealand,Country
+syrah,central otago,2022,False,0.85,0.85,0.85,new zealand,Sub-region
+shiraz,central otago,2022,False,0.85,0.85,0.85,new zealand,Sub-region
+riesling,central otago,2019,False,0.85,0.85,0.85,new zealand,GI
+cabernet sauvignon,central otago,2017,False,0.85,0.85,0.85,new zealand,Sub-region
+sauvignon blanc,central otago,2017,True,0.85,0.85,0.85,new zealand,Sub-region
+sauvignon blanc,central otago,2023,True,0.85,0.85,0.85,new zealand,Sub-region
+merlot,central otago,2015,False,0.85,0.85,0.85,new zealand,Sub-region
+merlot,hawke's bay,2018,False,0.85,0.85,0.85,new zealand,Sub-region
+malbec,hawke's bay,2017,False,0.85,0.85,0.85,new zealand,Country
+syrah,hawke's bay,2024,False,0.85,0.85,0.85,new zealand,GI
+cabernet sauvignon,hawke's bay,2019,False,0.85,0.85,0.85,new zealand,GI
+pinot gris,hawke's bay,2021,False,0.85,0.85,0.85,new zealand,GI
+sauvignon blanc,hawke's bay,2015,True,0.85,0.85,0.85,new zealand,Sub-region
+pinot gris,hawke's bay,2018,True,0.85,0.85,0.85,new zealand,GI
+cabernet sauvignon,hawke's bay,2022,True,0.85,0.85,0.85,new zealand,GI
+pinot gris,hawke's bay,2018,True,0.85,0.85,0.85,new zealand,Country
+merlot,hawke's bay,2022,True,0.85,0.85,0.85,new zealand,Sub-region
+shiraz,hawke's bay,2024,False,0.85,0.85,0.85,new zealand,Sub-region
+sauvignon blanc,hawke's bay,2021,True,0.85,0.85,0.85,new zealand,Sub-region
+sauvignon blanc,hawke's bay,2016,True,0.85,0.85,0.85,new zealand,Sub-region
+malbec,hawke's bay,2023,True,0.85,0.85,0.85,new zealand,GI
+syrah,hawke's bay,2022,False,0.85,0.85,0.85,new zealand,GI
+pinot gris,waipara valley,2016,False,0.85,0.85,0.85,new zealand,Country
+syrah,waipara valley,2024,True,0.85,0.85,0.85,new zealand,Country
+merlot,waipara valley,2018,False,0.85,0.85,0.85,new zealand,GI
+syrah,waipara valley,2020,False,0.85,0.85,0.85,new zealand,Country
+shiraz,waipara valley,2024,False,0.85,0.85,0.85,new zealand,Country
+pinot noir,waipara valley,2024,False,0.85,0.85,0.85,new zealand,Country
+malbec,waipara valley,2019,False,0.85,0.85,0.85,new zealand,Country
+merlot,waipara valley,2015,False,0.85,0.85,0.85,new zealand,Country
+chardonnay,waipara valley,2015,True,0.85,0.85,0.85,new zealand,Sub-region
+pinot noir,waipara valley,2019,False,0.85,0.85,0.85,new zealand,Country
+chardonnay,waipara valley,2023,True,0.85,0.85,0.85,new zealand,GI
+shiraz,waipara valley,2021,True,0.85,0.85,0.85,new zealand,Sub-region
+merlot,waipara valley,2022,True,0.85,0.85,0.85,new zealand,Sub-region
+syrah,waipara valley,2019,False,0.85,0.85,0.85,new zealand,GI
+pinot gris,waipara valley,2023,True,0.85,0.85,0.85,new zealand,GI
+sauvignon blanc,new zealand,2024,True,0.85,0.85,0.85,new zealand,GI
+riesling,new zealand,2023,False,0.85,0.85,0.85,new zealand,GI
+merlot,new zealand,2019,True,0.85,0.85,0.85,new zealand,GI
+shiraz,new zealand,2024,False,0.85,0.85,0.85,new zealand,Country
+malbec,new zealand,2017,False,0.85,0.85,0.85,new zealand,Country
+pinot gris,new zealand,2015,True,0.85,0.85,0.85,new zealand,GI
+cabernet sauvignon,new zealand,2017,True,0.85,0.85,0.85,new zealand,GI
+riesling,new zealand,2020,False,0.85,0.85,0.85,new zealand,GI
+pinot gris,new zealand,2017,True,0.85,0.85,0.85,new zealand,Sub-region
+shiraz,new zealand,2019,False,0.85,0.85,0.85,new zealand,Sub-region
+malbec,new zealand,2020,True,0.85,0.85,0.85,new zealand,Country
+sauvignon blanc,new zealand,2020,False,0.85,0.85,0.85,new zealand,Sub-region
+shiraz,new zealand,2017,False,0.85,0.85,0.85,new zealand,Sub-region
+syrah,new zealand,2022,False,0.85,0.85,0.85,new zealand,Sub-region
+sauvignon blanc,new zealand,2023,True,0.85,0.85,0.85,new zealand,Country
+colombard,hunter valley,2014,True,0.85,0.85,0.95,australia,Country
+semillon,hunter valley,2015,True,0.85,0.85,0.95,australia,Reserve
+riesling,hunter valley,2010,False,0.85,0.85,0.95,australia,Sub-region
+merlot,hunter valley,2011,False,0.85,0.85,0.95,australia,GI
+pinot noir,hunter valley,2016,False,0.85,0.85,0.95,australia,Reserve
+riesling,hunter valley,2019,True,0.85,0.85,0.95,australia,Sub-region
+chardonnay,hunter valley,2021,False,0.85,0.85,0.95,australia,Sub-region
+viognier,hunter valley,2020,False,0.85,0.85,0.95,australia,Country
+semillon,hunter valley,2019,True,0.85,0.85,0.95,australia,Country
+pinot grigio,hunter valley,2016,False,0.85,0.85,0.95,australia,GI
+semillon,hunter valley,2011,False,0.85,0.85,0.95,australia,Sub-region
+colombard,hunter valley,2020,True,0.85,0.85,0.95,australia,Sub-region
+grenacheshiraz,hunter valley,2017,True,0.85,0.85,0.95,australia,Country
+pinot noir,hunter valley,2022,True,0.85,0.85,0.95,australia,Reserve
+syrah,hunter valley,2021,False,0.85,0.85,0.95,australia,GI
+pinot grigio,yarra valley,2012,True,0.85,0.85,0.95,australia,Country
+merlot,yarra valley,2011,True,0.85,0.85,0.95,australia,Sub-region
+chardonnay,yarra valley,2022,False,0.85,0.85,0.95,australia,Reserve
+pinot grigio,yarra valley,2017,True,0.85,0.85,0.95,australia,Country
+pinot grigio,yarra valley,2015,True,0.85,0.85,0.95,australia,Country
+muscat gordo blanco,yarra valley,2011,False,0.85,0.85,0.95,australia,Reserve
+grenacheshiraz,yarra valley,2017,False,0.85,0.85,0.95,australia,Sub-region
+chardonnay,yarra valley,2016,True,0.85,0.85,0.95,australia,Sub-region
+malbec,yarra valley,2015,False,0.85,0.85,0.95,australia,Country
+pinot grigio,yarra valley,2015,True,0.85,0.85,0.95,australia,Reserve
+syrah,yarra valley,2022,True,0.85,0.85,0.95,australia,Sub-region
+pinot gris,yarra valley,2016,True,0.85,0.85,0.95,australia,GI
+pinot gris,yarra valley,2014,True,0.85,0.85,0.95,australia,Reserve
+grenacheshiraz,yarra valley,2016,False,0.85,0.85,0.95,australia,Country
+merlot,yarra valley,2010,False,0.85,0.85,0.95,australia,Sub-region
+grenacheshiraz,adelaide hills,2010,False,0.85,0.85,0.95,australia,GI
+riesling,adelaide hills,2011,True,0.85,0.85,0.95,australia,Reserve
+riesling,adelaide hills,2021,True,0.85,0.85,0.95,australia,Reserve
+pinot noir,adelaide hills,2012,True,0.85,0.85,0.95,australia,GI
+pinot grigio,adelaide hills,2012,True,0.85,0.85,0.95,australia,Country
+semillon,adelaide hills,2018,True,0.85,0.85,0.95,australia,Reserve
+grenacheshiraz,adelaide hills,2010,False,0.85,0.85,0.95,australia,Sub-region
+pinot gris,adelaide hills,2020,False,0.85,0.85,0.95,australia,Country
+chardonnay,adelaide hills,2021,False,0.85,0.85,0.95,australia,Sub-region
+semillon,adelaide hills,2013,True,0.85,0.85,0.95,australia,Sub-region
+chardonnay,adelaide hills,2014,False,0.85,0.85,0.95,australia,Reserve
+cabernet sauvignon,adelaide hills,2013,True,0.85,0.85,0.95,australia,GI
+merlot,adelaide hills,2019,False,0.85,0.85,0.95,australia,GI
+muscat gordo blanco,adelaide hills,2022,False,0.85,0.85,0.95,australia,Country
+viognier,adelaide hills,2018,True,0.85,0.85,0.95,australia,GI
+pinot noir,barossa valley,2016,False,0.85,0.85,0.95,australia,GI
+malbec,barossa valley,2022,True,0.85,0.85,0.95,australia,Sub-region
+chardonnay,barossa valley,2017,True,0.85,0.85,0.95,australia,GI
+semillon,barossa valley,2017,True,0.85,0.85,0.95,australia,Sub-region
+semillon,barossa valley,2012,True,0.85,0.85,0.95,australia,GI
+riesling,barossa valley,2020,True,0.85,0.85,0.95,australia,GI
+pinot grigio,barossa valley,2014,False,0.85,0.85,0.95,australia,Country
+pinot gris,barossa valley,2021,False,0.85,0.85,0.95,australia,GI
+muscat gordo blanco,barossa valley,2022,True,0.85,0.85,0.95,australia,Country
+grenacheshiraz,barossa valley,2013,False,0.85,0.85,0.95,australia,Country
+grenacheshiraz,barossa valley,2012,False,0.85,0.85,0.95,australia,GI
+syrah,barossa valley,2019,True,0.85,0.85,0.95,australia,Sub-region
+chardonnay,barossa valley,2012,False,0.85,0.85,0.95,australia,Country
+muscat gordo blanco,barossa valley,2019,True,0.85,0.85,0.95,australia,Sub-region
+semillon,barossa valley,2010,False,0.85,0.85,0.95,australia,GI
+semillon,clare valley,2016,True,0.85,0.85,0.95,australia,Sub-region
+pinot grigio,clare valley,2017,True,0.85,0.85,0.95,australia,Country
+viognier,clare valley,2016,False,0.85,0.85,0.95,australia,Sub-region
+muscat gordo blanco,clare valley,2014,True,0.85,0.85,0.95,australia,Sub-region
+chardonnay,clare valley,2019,True,0.85,0.85,0.95,australia,GI
+muscat gordo blanco,clare valley,2018,True,0.85,0.85,0.95,australia,Sub-region
+riesling,clare valley,2017,False,0.85,0.85,0.95,australia,Country
+malbec,clare valley,2021,False,0.85,0.85,0.95,australia,Country
+viognier,clare valley,2015,True,0.85,0.85,0.95,australia,Country
+syrah,clare valley,2018,False,0.85,0.85,0.95,australia,Country
+malbec,clare valley,2019,False,0.85,0.85,0.95,australia,GI
+sauvignon blanc,clare valley,2012,True,0.85,0.85,0.95,australia,GI
+pinot gris,clare valley,2015,False,0.85,0.85,0.95,australia,Reserve
+pinot noir,clare valley,2012,False,0.85,0.85,0.95,australia,Reserve
+semillon,clare valley,2012,True,0.85,0.85,0.95,australia,Sub-region
+viognier,mclaren vale,2010,False,0.85,0.85,0.95,australia,Reserve
+merlot,mclaren vale,2019,True,0.85,0.85,0.95,australia,Sub-region
+sauvignon blanc,mclaren vale,2019,True,0.85,0.85,0.95,australia,Reserve
+pinot noir,mclaren vale,2018,True,0.85,0.85,0.95,australia,Reserve
+muscat gordo blanco,mclaren vale,2014,True,0.85,0.85,0.95,australia,Sub-region
+cabernet sauvignon,mclaren vale,2019,True,0.85,0.85,0.95,australia,GI
+sauvignon blanc,mclaren vale,2016,False,0.85,0.85,0.95,australia,Country
+colombard,mclaren vale,2014,True,0.85,0.85,0.95,australia,Reserve
+pinot gris,mclaren vale,2011,True,0.85,0.85,0.95,australia,Country
+syrah,mclaren vale,2015,True,0.85,0.85,0.95,australia,GI
+semillon,mclaren vale,2018,True,0.85,0.85,0.95,australia,GI
+cabernet sauvignon,mclaren vale,2016,False,0.85,0.85,0.95,australia,Reserve
+pinot noir,mclaren vale,2020,False,0.85,0.85,0.95,australia,Sub-region
+cabernet sauvignon,mclaren vale,2021,True,0.85,0.85,0.95,australia,Reserve
+riesling,mclaren vale,2020,True,0.85,0.85,0.95,australia,GI
+merlot,margaret river,2017,True,0.85,0.85,0.95,australia,Reserve
+pinot gris,margaret river,2015,True,0.85,0.85,0.95,australia,Sub-region
+viognier,margaret river,2022,True,0.85,0.85,0.95,australia,Reserve
+muscat gordo blanco,margaret river,2020,True,0.85,0.85,0.95,australia,GI
+sauvignon blanc,margaret river,2016,True,0.85,0.85,0.95,australia,Reserve
+riesling,margaret river,2010,False,0.85,0.85,0.95,australia,Sub-region
+malbec,margaret river,2016,True,0.85,0.85,0.95,australia,Country
+muscat gordo blanco,margaret river,2010,True,0.85,0.85,0.95,australia,Reserve
+syrah,margaret river,2020,False,0.85,0.85,0.95,australia,GI
+chardonnay,margaret river,2019,True,0.85,0.85,0.95,australia,Sub-region
+chardonnay,margaret river,2018,True,0.85,0.85,0.95,australia,Sub-region
+riesling,margaret river,2016,True,0.85,0.85,0.95,australia,Reserve
+cabernet sauvignon,margaret river,2018,False,0.85,0.85,0.95,australia,GI
+sauvignon blanc,margaret river,2015,True,0.85,0.85,0.95,australia,Country
+semillon,margaret river,2012,False,0.85,0.85,0.95,australia,Sub-region
+cabernet sauvignon,rutherglen,2017,True,0.85,0.85,0.95,australia,GI
+colombard,rutherglen,2022,False,0.85,0.85,0.95,australia,Country
+merlot,rutherglen,2018,False,0.85,0.85,0.95,australia,Country
+merlot,rutherglen,2022,False,0.85,0.85,0.95,australia,Reserve
+muscat gordo blanco,rutherglen,2016,True,0.85,0.85,0.95,australia,Country
+viognier,rutherglen,2013,False,0.85,0.85,0.95,australia,Reserve
+viognier,rutherglen,2014,False,0.85,0.85,0.95,australia,GI
+cabernet sauvignon,rutherglen,2022,False,0.85,0.85,0.95,australia,GI
+pinot noir,rutherglen,2010,False,0.85,0.85,0.95,australia,Country
+pinot gris,rutherglen,2019,True,0.85,0.85,0.95,australia,Sub-region
+viognier,rutherglen,2019,False,0.85,0.85,0.95,australia,Sub-region
+pinot noir,rutherglen,2019,False,0.85,0.85,0.95,australia,GI
+riesling,rutherglen,2018,True,0.85,0.85,0.95,australia,Sub-region
+riesling,rutherglen,2010,False,0.85,0.85,0.95,australia,GI
+pinot gris,rutherglen,2011,False,0.85,0.85,0.95,australia,Reserve
+syrah,coonawarra,2019,False,0.85,0.85,0.95,australia,Sub-region
+cabernet sauvignon,coonawarra,2013,False,0.85,0.85,0.95,australia,GI
+chardonnay,coonawarra,2022,False,0.85,0.85,0.95,australia,Country
+pinot gris,coonawarra,2018,False,0.85,0.85,0.95,australia,Country
+muscat gordo blanco,coonawarra,2021,True,0.85,0.85,0.95,australia,Country
+cabernet sauvignon,coonawarra,2018,True,0.85,0.85,0.95,australia,Reserve
+pinot noir,coonawarra,2012,True,0.85,0.85,0.95,australia,Country
+cabernet sauvignon,coonawarra,2012,True,0.85,0.85,0.95,australia,Reserve
+riesling,coonawarra,2015,False,0.85,0.85,0.95,australia,Country
+grenacheshiraz,coonawarra,2017,False,0.85,0.85,0.95,australia,GI
+syrah,coonawarra,2010,True,0.85,0.85,0.95,australia,Country
+semillon,coonawarra,2020,True,0.85,0.85,0.95,australia,GI
+colombard,coonawarra,2012,False,0.85,0.85,0.95,australia,Sub-region
+chardonnay,coonawarra,2015,True,0.85,0.85,0.95,australia,Country
+malbec,coonawarra,2017,True,0.85,0.85,0.95,australia,Reserve
+pinot grigio,mornington peninsula,2012,False,0.85,0.85,0.95,australia,Reserve
+malbec,mornington peninsula,2017,False,0.85,0.85,0.95,australia,Country
+semillon,mornington peninsula,2021,False,0.85,0.85,0.95,australia,Sub-region
+riesling,mornington peninsula,2021,False,0.85,0.85,0.95,australia,Reserve
+pinot noir,mornington peninsula,2022,True,0.85,0.85,0.95,australia,Reserve
+syrah,mornington peninsula,2022,False,0.85,0.85,0.95,australia,Country
+pinot grigio,mornington peninsula,2012,True,0.85,0.85,0.95,australia,Reserve
+riesling,mornington peninsula,2011,False,0.85,0.85,0.95,australia,Country
+muscat gordo blanco,mornington peninsula,2017,True,0.85,0.85,0.95,australia,Reserve
+merlot,mornington peninsula,2019,True,0.85,0.85,0.95,australia,Reserve
+colombard,mornington peninsula,2019,False,0.85,0.85,0.95,australia,Country
+colombard,mornington peninsula,2020,True,0.85,0.85,0.95,australia,GI
+chardonnay,mornington peninsula,2017,True,0.85,0.85,0.95,australia,Sub-region
+cabernet sauvignon,mornington peninsula,2020,True,0.85,0.85,0.95,australia,GI
+riesling,mornington peninsula,2020,False,0.85,0.85,0.95,australia,GI
+pinot gris,tasmania,2018,False,0.85,0.85,0.95,australia,Reserve
+muscat gordo blanco,tasmania,2012,True,0.85,0.85,0.95,australia,Sub-region
+sauvignon blanc,tasmania,2018,False,0.85,0.85,0.95,australia,GI
+muscat gordo blanco,tasmania,2016,True,0.85,0.85,0.95,australia,Reserve
+semillon,tasmania,2010,True,0.85,0.85,0.95,australia,GI
+colombard,tasmania,2014,False,0.85,0.85,0.95,australia,Country
+cabernet sauvignon,tasmania,2022,False,0.85,0.85,0.95,australia,Country
+syrah,tasmania,2015,True,0.85,0.85,0.95,australia,GI
+viognier,tasmania,2016,True,0.85,0.85,0.95,australia,Sub-region
+viognier,tasmania,2010,True,0.85,0.85,0.95,australia,Country
+muscat gordo blanco,tasmania,2013,False,0.85,0.85,0.95,australia,Sub-region
+sauvignon blanc,tasmania,2017,True,0.85,0.85,0.95,australia,Country
+pinot gris,tasmania,2021,True,0.85,0.85,0.95,australia,Sub-region
+pinot noir,tasmania,2012,False,0.85,0.85,0.95,australia,Country
+cabernet sauvignon,tasmania,2018,False,0.85,0.85,0.95,australia,Country
+chardonnay,geographe,2016,False,0.85,0.85,0.95,australia,Sub-region
+grenacheshiraz,geographe,2015,True,0.85,0.85,0.95,australia,Reserve
+muscat gordo blanco,geographe,2019,True,0.85,0.85,0.95,australia,Reserve
+pinot noir,geographe,2014,False,0.85,0.85,0.95,australia,Country
+grenacheshiraz,geographe,2017,True,0.85,0.85,0.95,australia,Reserve
+syrah,geographe,2011,False,0.85,0.85,0.95,australia,Country
+chardonnay,geographe,2011,False,0.85,0.85,0.95,australia,Reserve
+cabernet sauvignon,geographe,2020,False,0.85,0.85,0.95,australia,Country
+merlot,geographe,2012,False,0.85,0.85,0.95,australia,Country
+syrah,geographe,2020,False,0.85,0.85,0.95,australia,Reserve
+pinot noir,geographe,2010,True,0.85,0.85,0.95,australia,GI
+merlot,geographe,2011,False,0.85,0.85,0.95,australia,Sub-region
+pinot grigio,geographe,2022,True,0.85,0.85,0.95,australia,Sub-region
+semillon,geographe,2014,True,0.85,0.85,0.95,australia,Country
+cabernet sauvignon,geographe,2010,False,0.85,0.85,0.95,australia,Sub-region
+sauvignon blanc,australia,2019,True,0.85,0.85,0.95,australia,Country
+muscat gordo blanco,australia,2014,False,0.85,0.85,0.95,australia,Reserve
+merlot,australia,2019,False,0.85,0.85,0.95,australia,Sub-region
+grenacheshiraz,australia,2013,False,0.85,0.85,0.95,australia,Reserve
+viognier,australia,2020,True,0.85,0.85,0.95,australia,Reserve
+pinot noir,australia,2015,True,0.85,0.85,0.95,australia,GI
+viognier,australia,2021,False,0.85,0.85,0.95,australia,Sub-region
+merlot,australia,2022,True,0.85,0.85,0.95,australia,GI
+merlot,australia,2021,False,0.85,0.85,0.95,australia,Country
+pinot gris,australia,2011,True,0.85,0.85,0.95,australia,Country
+colombard,australia,2014,True,0.85,0.85,0.95,australia,Sub-region
+pinot noir,australia,2018,False,0.85,0.85,0.95,australia,GI
+pinot gris,australia,2019,True,0.85,0.85,0.95,australia,Reserve
+cabernet sauvignon,australia,2018,False,0.85,0.85,0.95,australia,Sub-region
+sauvignon blanc,australia,2018,True,0.85,0.85,0.95,australia,Reserve
