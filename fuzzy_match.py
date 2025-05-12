@@ -1,4 +1,5 @@
 from rapidfuzz import process, fuzz
+import string
 
 # using rapidfuzz instead of fuzzywuzzy because it's faster
 
@@ -28,7 +29,7 @@ grape_variety = ['pinotage',
 regions = ["columbia valley", "yakima valley", "walla walla valley", "red mountain", "horse heaven hills",
            "willamette valley", "dundee hills", "yamhill-carlton", "mcminnville", "ribbon ridge", "chehalem mountains", "umpqua valley", "rogue valley", "applegate valley",
            "finger lakes", "cayuga lake", "seneca lake", "north fork of long island", "hamptons", "hudson river region", "lake erie",
-           "napa valley", 'sonoma valley', 'russian river valley', 'alexander valley', 'sonoma county','mendocino','santa barbara county','monterey county','paso robles',
+           "napa", "napa valley", 'sonoma valley', 'russian river valley', 'alexander valley', 'sonoma county','mendocino','santa barbara county','monterey county','paso robles',
            "mendoza", "san juan", "salta", "la rioja", "catamarca",
            "marlborough", "martinborough", "central otago",
            "western cape", "stellenbosch", "simonsberg",
@@ -48,6 +49,20 @@ country_to_region = {
     "australia": ["hunter valley", "yarra valley", "adelaide hills", "barossa valley", "clare valley", "mclaren vale", "margaret river", "rutherglen", "coonawarra", "mornington peninsula", "tasmania", "geographe"]
 }
 
+possible_keywords = ["estate", "e$tate", "reserva", "d.o", "d.0", "d,o", "d,0"]
+translator = str.maketrans('', '', string.punctuation)
+keyword = {"estate": "estate", 
+           "e$tate": "estate",
+           "reserve": "reserve",
+           "reserva": "reserve",
+           "d.o": "d.o.",
+           "d.0": "d.o.",
+           "d,o": "d.o.",
+           "d,0": "d.o."
+           }
+
+region_to_country = {region: country for country in country_to_region.keys() for region in country_to_region[country]}
+
 # country or states
 country_state = ["california", "oregon", "new york", "washington", "south africa", "argentina", "new zealand", "chile", "australia"]
 state = ['california', 'oregon', 'new york', 'washington']
@@ -56,64 +71,46 @@ state = ['california', 'oregon', 'new york', 'washington']
 common_error = ['vineyard', 'region', 'valley', 'hills', 'vineyards', 'hill']
 
 # fuzzy matching for grape varieties
-def fuzzy_matching_grapes(result, country):
+def fuzzy_matching_grapes(result, country=None):
     best_match = None
     matching_text = None
     best_score = 0 # no threshold
 
-    # should not decide grape variety just by looking at 'cabernet' or 'sauvignon'
-    cabernet, sauvignon = False, False
-
-    for (_, text, _) in result:
-        text = text.lower().replace(' ', '')
+    for text in result:
+        text = text.lower()
 
         # ignore common errors or short text
         if text in common_error or len(text) < 4:
             continue
 
         # find the best match
-        choice, _, _ = process.extractOne(text, grape_variety)
-        
-        # torrentes is argentina's signature grape (unlikely to be seen if region is not argentina)
-        if country != 'argentina' and choice == 'torrentes':
-            continue
+        choice, score, _ = process.extractOne(text, grape_variety)
 
-        # pinotage is south africa's signature grape (unlikely to be seen if region is not south africa)
-        if country != 'south africa' and choice == 'pinotage':
-            continue
-
-        # check if subsections are matched (remove any whitespace)
-        if choice in ['cabernet sauvignon', 'sauvignon blanc', 'cabernet franc']:
-            if fuzz.ratio(text, 'cabernet sauvignon') > 60:
-                cabernet, sauvignon = True, True
-                best_match = choice
-                matching_text = text
-                continue
-            if fuzz.ratio(text, 'cabernet') > 60:
-                cabernet = True
-            if fuzz.ratio(text, 'sauvignon') > 60:
-                sauvignon = True
-
-        # compute Levenshtein Distance similarity ratio between two strings
-        ratio_score = fuzz.ratio(choice, text)
-        # compare subsection of the strings (useful when one string is a substring of another)
-        partial_ratio_score = fuzz.partial_ratio(choice, text)
-
-        if best_score < ratio_score:
+        if len(choice) * 0.7 < len(text) and best_score < score:
             best_match = choice
-            best_score = ratio_score
+            best_score = score
             matching_text = text
-        # elif best_score < partial_ratio_score:
-        #     best_match = choice
-        #     best_score = partial_ratio_score
-        #     matching_text = text
+        
+    #     # torrentes is argentina's signature grape (unlikely to be seen if region is not argentina)
+    #     if country != 'argentina' and choice == 'torrentes':
+    #         continue
 
-    if cabernet and sauvignon:
-        best_match = 'cabernet sauvignon'
-    elif sauvignon:
-        best_match = 'sauvignon blanc'
-    elif cabernet:
-        best_match = 'cabernet franc'
+    #     # pinotage is south africa's signature grape (unlikely to be seen if region is not south africa)
+    #     if country != 'south africa' and choice == 'pinotage':
+    #         continue
+
+    #     # compute Levenshtein Distance similarity ratio between two strings
+    #     ratio_score = fuzz.ratio(choice, text)
+    #     token_set_score = fuzz.token_set_ratio(choice, text)
+
+    #     if best_score < token_set_score:
+    #         best_match = choice
+    #         best_score = token_set_score
+    #         matching_text = text
+    #     elif best_score < ratio_score:
+    #         best_match = choice
+    #         best_score = ratio_score
+    #         matching_text = text
 
     return best_match, best_score, matching_text
 
@@ -122,36 +119,45 @@ def fuzzy_matching_regions(result):
     best_score = 60 # threshold of 60
     matching_text = None
 
-    for (_, text, _) in result:
+    for text in result:
         text = text.lower()
 
         # ignore common errors or grape varieties or short text
         if text in common_error or text in grape_variety or len(text) < 4:
             continue
 
-        text = text.replace(' ', '')
+        # find best match using token set ratio and partial ratio
+        token_choice, token_score, _ = process.extractOne(text, regions, scorer=fuzz.token_set_ratio)
+        partial_choice, partial_score, _ = process.extractOne(text.replace(' ', ''), regions, scorer=fuzz.partial_ratio)
+        choice, score = None, 0
 
-        if text == 'napa':
-            best_match = 'napa valley'
-            best_score = 100
-            matching_text = text
+        # print("token scoring:", token_choice, token_score)
+        # print("partial scoring:", partial_choice, partial_score, "\n")
+        if token_score < partial_score:
+            choice, score = partial_choice, partial_score
+        else:
+            choice, score = token_choice, token_score
 
-        # find best match
-        choice, _, _ = process.extractOne(text, regions)
+        # short tokens need to have higher threshold
+        if choice == 'salta':
+            if score > 90:
+                best_match = choice
+                best_score = score
+                matching_text = text
+            continue
 
-        # compute Levenshtein Distance similarity ratio between two strings
-        ratio_score = fuzz.ratio(choice, text)
-        # compare subsection of the strings (useful when one string is a substring of another)
-        partial_ratio_score = fuzz.partial_ratio(choice, text)
+        if choice == 'napa':
+            if score == 100:
+                best_match = 'napa valley'
+                best_score = score
+                matching_text = text
+                break
 
-        if best_score < ratio_score:
+        if len(choice) * 0.7 < len(text) and best_score < score:
             best_match = choice
-            best_score = ratio_score
+            best_score = score
             matching_text = text
-        elif best_score < partial_ratio_score:
-            best_match = choice
-            best_score = partial_ratio_score
-            matching_text = text
+
 
     return best_match, best_score, matching_text
 
@@ -160,26 +166,95 @@ def fuzzy_matching_country(result):
     best_score = 60 # threshold of 60
     matching_text = None
 
-    for (_, text, _) in result:
+    for text in result:
         text = text.lower()
 
         # ignore common errors or grape varieties or short text
         if text in common_error or text in grape_variety or len(text) < 4:
             continue
 
-        text = text.replace(' ', '')
-
         # find best match
         choice, _, _ = process.extractOne(text, country_state)
 
         # compute Levenshtein Distance similarity ratio between two strings
         ratio_score = fuzz.ratio(choice, text)
-        # don't compare subsections since countries are short and they rarely break up into multiple strings
+
+        # OCR can read countries/states with high accuracy
+        partial_token_set_score = fuzz.token_set_ratio(choice, text)
 
         # check if Levenshtein Distance similarity ratio between two strings is higher
-        if best_score < ratio_score:
+        if partial_token_set_score == 100:
+            best_match = choice
+            best_score = partial_token_set_score
+            matching_text = text
+            break
+        elif best_score < ratio_score:
             best_match = choice
             best_score = ratio_score
             matching_text = text
     
     return best_match, best_score, matching_text
+
+def fuzzy_matching_keyword(result):
+    scores = set()
+    threshold = 85
+    for text in result:
+        text = text.lower()
+
+        # ignore short words
+        if len(text) < 4:
+            continue
+
+        token_choice, token_score, _ = process.extractOne(text, possible_keywords, scorer=fuzz.partial_token_set_ratio)
+        partial_choice, partial_score, _ = process.extractOne(text.replace(' ', ''), possible_keywords, scorer=fuzz.partial_ratio)
+
+        if token_score < partial_score:
+            choice, score = keyword[partial_choice], partial_score
+        else:
+            choice, score = keyword[token_choice], token_score
+
+        # print("text", text)
+        # print("choice", choice, f"({score})")
+
+        if choice == 'd.o.':
+            # only add D.O. to keyword when it's 100% certain (tends to get higher similarity score because it's short)
+            if score == 100:
+                scores.add(choice)
+            continue
+
+        # ignore if similarity score is high because of the word 'state'
+        if choice == 'estate' and score < fuzz.partial_ratio(text.lower(), 'state'):
+            continue
+
+        if score > threshold:
+            scores.add(choice)
+
+    return scores
+
+def extract_info(result):
+    best_country, country_score, country_matching  = fuzzy_matching_country(result)
+    best_region, region_score, region_matching = fuzzy_matching_regions(result)
+
+    # if country is not found or us wine (need to find AVA)
+    if best_country is None or best_country in state:
+        # check if state wine (AVA does not match state)
+        if best_country in state and best_region not in country_to_region[best_country]:
+            best_region = None
+        else:
+            # find country using region
+            best_country = region_to_country[best_region]
+
+    # check if region and country match (set it to match the higher scored one)
+    if best_region is not None and best_region not in country_to_region[best_country]:
+        if region_score < country_score:
+            best_region = None
+        else:
+            best_country = region_to_country[best_region]
+
+    # find grape variety
+    best_grape, _, _ = fuzzy_matching_grapes(result, best_country)
+
+    # find keywords
+    keywords = fuzzy_matching_keyword(result)
+
+    return best_grape, best_region, best_country, keywords
