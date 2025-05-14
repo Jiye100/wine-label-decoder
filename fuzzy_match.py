@@ -23,7 +23,12 @@ grape_variety = ['pinotage',
                  'shiraz',
                  'bonarda',
                  'semillon',
-                 'muscat'
+                 'muscat',
+                 'muscadet',
+                 'gewurztraminer',
+                 'gamay',
+                 'cabernet',
+                 'sauvignon'
                 ]
 
 regions = ["columbia valley", "yakima valley", "walla walla valley", "red mountain", "horse heaven hills",
@@ -34,7 +39,8 @@ regions = ["columbia valley", "yakima valley", "walla walla valley", "red mounta
            "marlborough", "martinborough", "central otago",
            "western cape", "stellenbosch", "simonsberg",
            "elqui valley", "limari valley", "aconcagua", "maipo valley", "cachapoal valley", "colchagua valley", "maule valley",
-           "hunter valley", "yarra valley", "adelaide hills", "barossa valley", "clare valley", "mclaren vale", "margaret river", "rutherglen", "coonawarra", "mornington peninsula", "tasmania", "geographe"
+           "hunter valley", "yarra valley", "adelaide hills", "barossa valley", "clare valley", "mclaren vale", "margaret river", "rutherglen", "coonawarra", "mornington peninsula", "tasmania",
+           "nantais", "anjou", "savennieres", "saumur", "touraine", "sancerre", "pouilly-fume", "reuilly", "quincy", "vouvray", "chinon", "bourgueil"
            ]
 
 country_to_region = {
@@ -49,7 +55,11 @@ country_to_region = {
     "australia": ["hunter valley", "yarra valley", "adelaide hills", "barossa valley", "clare valley", "mclaren vale", "margaret river", "rutherglen", "coonawarra", "mornington peninsula", "tasmania", "geographe"]
 }
 
-possible_keywords = ["estate", "e$tate", "reserva", "d.o", "d.0", "d,o", "d,0"]
+possible_keywords = ["estate", "e$tate", "reserva", "d.o", "d.0", "d,o", "d,0", "sur lie"
+                    #  "vins de france", "igp", "i.g.p", "indication geographique protegee", "aoc", "appellation d'origine controlee".
+                    #  "cremant", "saumur brut", "montlouis sur loire", "anjou mousseux", "touraine mousseux", "vouvray", "grand cru",
+                    #  "vendanges tardives", "selection de grains nobles", "gentil", "edelzwicker"
+                     ]
 translator = str.maketrans('', '', string.punctuation)
 keyword = {"estate": "estate", 
            "e$tate": "estate",
@@ -58,13 +68,14 @@ keyword = {"estate": "estate",
            "d.o": "d.o.",
            "d.0": "d.o.",
            "d,o": "d.o.",
-           "d,0": "d.o."
+           "d,0": "d.o.",
+           "sur lie": "sur lie"
            }
 
 region_to_country = {region: country for country in country_to_region.keys() for region in country_to_region[country]}
 
 # country or states
-country_state = ["california", "oregon", "new york", "washington", "south africa", "argentina", "new zealand", "chile", "australia"]
+country_state = ["california", "oregon", "new york", "washington", "south africa", "argentina", "new zealand", "chile", "australia", "loire", "alsace"]
 state = ['california', 'oregon', 'new york', 'washington']
 
 # common error words that should be ignored
@@ -76,6 +87,8 @@ def fuzzy_matching_grapes(result, country=None):
     matching_text = None
     best_score = 0 # no threshold
 
+    cabernet, sauvignon = False, False
+
     for text in result:
         text = text.lower()
 
@@ -86,10 +99,24 @@ def fuzzy_matching_grapes(result, country=None):
         # find the best match
         choice, score, _ = process.extractOne(text, grape_variety)
 
-        if len(choice) * 0.7 < len(text) and best_score < score:
+        if choice == 'cabernet' and score > 85:
+            cabernet = True
+        elif choice == 'sauvignon':
+            sauvignon = True
+        elif best_score < score:
             best_match = choice
             best_score = score
             matching_text = text
+
+        if cabernet and sauvignon:
+            best_match = 'cabernet sauvignon' 
+            break
+        elif sauvignon:
+            best_match = 'sauvignon blanc'
+            break
+        elif cabernet:
+            best_match = 'cabernet franc'
+            break
         
     #     # torrentes is argentina's signature grape (unlikely to be seen if region is not argentina)
     #     if country != 'argentina' and choice == 'torrentes':
@@ -112,6 +139,7 @@ def fuzzy_matching_grapes(result, country=None):
     #         best_score = ratio_score
     #         matching_text = text
 
+
     return best_match, best_score, matching_text
 
 def fuzzy_matching_regions(result):
@@ -130,7 +158,7 @@ def fuzzy_matching_regions(result):
         token_choice, token_score, _ = process.extractOne(text, regions, scorer=fuzz.token_set_ratio)
         partial_choice, partial_score, _ = process.extractOne(text.replace(' ', ''), regions, scorer=fuzz.partial_ratio)
         choice, score = None, 0
-
+        # print("text:", text)
         # print("token scoring:", token_choice, token_score)
         # print("partial scoring:", partial_choice, partial_score, "\n")
         if token_score < partial_score:
@@ -153,7 +181,7 @@ def fuzzy_matching_regions(result):
                 matching_text = text
                 break
 
-        if len(choice) * 0.7 < len(text) and best_score < score:
+        if best_score < score:
             best_match = choice
             best_score = score
             matching_text = text
