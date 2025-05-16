@@ -3,6 +3,7 @@ import numpy as np
 from sklearn import tree
 from sklearn.tree import DecisionTreeClassifier
 import csv
+import sys
 
 # Get the training data
 ny_or_wa_df = pd.read_csv(r'dataset/NY_OR_WA_wines.csv')
@@ -35,7 +36,7 @@ df['country'] = df['country'].map(country_mp)
 df['designation'] = df['designation'].map(designation_mp)
 df['result'] = df.apply(lambda row: result_mp.get((row['grape_law'], row['region_law'], row['vintage_law']), 'None'), axis=1)
 
-print(df.head())
+#print(df.head())
 # Removing useless columns
 df = df.drop(df.columns[6], axis = 1)
 df = df.drop(df.columns[5], axis = 1)
@@ -97,7 +98,7 @@ def predict_law(df):
 
     # --- Map back to the result tuple ---
     if pred[0] in idx2result:
-        print(f"Prediction for input: {idx2result[pred[0]]}")
+        #print(f"Prediction for input: {idx2result[pred[0]]}")
         return idx2result[pred[0]]
     else:
         raise ValueError(f"Prediction resulted in an unknown label: {pred[0]}")

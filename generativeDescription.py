@@ -89,4 +89,4 @@ def generate_wine_law(grape, region, vintage):
 
 # Uncomment this and run this file to specifically testing generative description code
 # print(generate_wine_description("Château Margaux 2015", "Bordeaux, France"))
-print(generate_wine_law("Cabernet Sauvignon", "Californian AVA","2022"))
+# print(generate_wine_law("Cabernet Sauvignon", "Californian AVA","2022"))
