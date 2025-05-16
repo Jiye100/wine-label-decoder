@@ -13,11 +13,11 @@ from thefuzz import process
 reader = easyocr.Reader(['en'])
 
 #Replace with your tesseract
-pytesseract.pytesseract.tesseract_cmd = r"/opt/homebrew/bin/tesseract"
 # pytesseract.pytesseract.tesseract_cmd = r"/opt/homebrew/bin/tesseract"
+# pytesseract.pytesseract.tesseract_cmd = r"C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 
-def extract_text(file):
-
+def extract_text(file, pytesseract_path):
+  pytesseract.pytesseract.tesseract_cmd = pytesseract_path
   #Apply a bunch of filter to feature text in different lighting
   img = cv2.imread(file)
   gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -84,4 +84,14 @@ def ocr_on_images(Config):
     filename = file.rsplit( ".", 1 )[0]
     to_write_ocr=open(Config['images_result'] + filename + "_result.txt",'w')
     text = extract_text(Config['dataset_images']+file)
+    to_write_ocr.write(f"{text}")
+
+def ocr_on_batch_of_images(Config):
+  clean_OCR_result_folder(Config)
+  for file in tqdm(os.listdir(Config['batch_path']), desc="Extracting text from input images"):
+    if not file.lower().endswith(('.png')):
+      continue
+    filename = file.rsplit( ".", 1 )[0]
+    to_write_ocr=open(Config['OCR_result'] + filename + "_result.txt",'w')
+    text = extract_text(Config['batch_path']+file, Config['pytesseract_path'])
     to_write_ocr.write(f"{text}")

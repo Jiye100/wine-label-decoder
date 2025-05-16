@@ -1,4 +1,4 @@
-# app.py
+# Home.py
 import streamlit as st
 from menu import menu
 
@@ -12,7 +12,7 @@ st.markdown("""
 ### Select a page from the sidebar to get started!
 - **Wine Reader**: Upload and extract wine label information.
 - **Wine Information**: Learn about flavor profiles for different grapes.
-- **Wine Description**: Generate descriptions for your wines.
+- **Read Multiple Images**: Upload multiple images to be read!
 """)
 
 

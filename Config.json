@@ -2,5 +2,8 @@
   "cropped_sample_result": "./easyOCRresult_cropped_sample/",
   "images_result": "./easyOCRresult_images/",
   "cropped_images": "./dataset/cropped_sample/",
-  "dataset_images": "./dataset/images/"
+  "dataset_images": "./dataset/images/",
+  "batch_path": "",
+  "OCR_result": "./result/OCR_result/",
+  "pytesseract_path": ""
 }

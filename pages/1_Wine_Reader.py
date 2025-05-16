@@ -8,6 +8,7 @@ from PIL import Image
 import numpy as np
 import torch
 from io import BytesIO
+from generativeDescription import generate_wine_description
 
 # ========================
 # 🚀 Caching Expensive Operations
@@ -22,6 +23,13 @@ def load_reader():
 def load_model():
     """Loads the decision tree model (if needed)."""
     return decision_tree
+
+@st.cache_resource
+def load_description(grape, region):
+    """Generates the wine description. Cached so it only runs once."""
+    with st.spinner("Generating wine description..."):
+        description = generate_wine_description(grape, region)
+    return description
 
 def extract_information(image_array):
     """Runs OCR on the image and extracts relevant information."""
@@ -91,6 +99,8 @@ if 'last_uploaded' not in st.session_state:
     st.session_state.last_uploaded = None
 if 'image_data' not in st.session_state:
     st.session_state.image_data = None
+if 'generative_description' not in st.session_state:
+    st.session_state.generative_description = None
 
 # File uploader
 uploaded_file = st.file_uploader("Upload a wine label image", type=["png", "jpg", "jpeg"])
@@ -108,6 +118,7 @@ if new_image:
     
     # === Invalidate the cache ===
     st.session_state.parsed_data = None  
+    st.session_state.generative_description = None  # Invalidate description if new image is uploaded
 
 # --- Display Image if Available ---
 if st.session_state.image_data:
@@ -152,6 +163,14 @@ if st.session_state.parsed_data:
     st.write(f"🍇 **{grape_law}%** of the grapes must be **{grape.title()}**")
     st.write(f"📍 **{region_law}%** of the grapes must come from **{region.title()}**")
     st.write(f"🗓️ **{vintage_law}%** of the grapes must be from the stated vintage")
+
+    # --- Generate Description if not cached ---
+    if st.session_state.generative_description is None:
+        st.session_state.generative_description = load_description(grape, region)
+
+    # --- Display the Description ---
+    st.subheader("🍷 Wine Description")
+    st.write(st.session_state.generative_description)
 
     # --- Only show extracted text when checkbox is checked ---
     if st.checkbox('Feeling nerdy?', key='nerdy_checkbox'):
