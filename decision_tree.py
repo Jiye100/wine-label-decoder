@@ -28,26 +28,28 @@ result_mp = {tup : str(idx) for idx, tup in enumerate(result)}
 
 idx2result = {str(idx): tup for tup, idx in result_mp.items()}
 
+# I added the function so it doesnt run this code from the main
+def decision_tree_train():
+    df['region'] = df['region'].map(region_mp)
+    df['grape'] = df['grape'].map(grape_mp)
+    df['country'] = df['country'].map(country_mp)
+    df['designation'] = df['designation'].map(designation_mp)
+    df['result'] = df.apply(lambda row: result_mp.get((row['grape_law'], row['region_law'], row['vintage_law']), 'None'), axis=1)
 
-df['region'] = df['region'].map(region_mp)
-df['grape'] = df['grape'].map(grape_mp)
-df['country'] = df['country'].map(country_mp)
-df['designation'] = df['designation'].map(designation_mp)
-df['result'] = df.apply(lambda row: result_mp.get((row['grape_law'], row['region_law'], row['vintage_law']), 'None'), axis=1)
+    print(df.head())
+    # Removing useless columns
+    df = df.drop(df.columns[6], axis = 1)
+    df = df.drop(df.columns[5], axis = 1)
+    df = df.drop(df.columns[4], axis = 1)
+    df = df.drop(df.columns[3], axis = 1)
 
-print(df.head())
-# Removing useless columns
-df = df.drop(df.columns[6], axis = 1)
-df = df.drop(df.columns[5], axis = 1)
-df = df.drop(df.columns[4], axis = 1)
-df = df.drop(df.columns[3], axis = 1)
+    # Decision Tree
+    X = df[['grape', 'region', 'country', 'designation']]
+    Y = df[['result']]
 
-# Decision Tree
-X = df[['grape', 'region', 'country', 'designation']]
-Y = df[['result']]
-
-dtree = DecisionTreeClassifier()
-dtree = dtree.fit(X, Y)
+    dtree = DecisionTreeClassifier()
+    dtree = dtree.fit(X, Y)
+    joblib.dump(dtree, './models/decision_tree_model.pkl')
 
 
 # Testing decision tree model
