@@ -75,7 +75,7 @@ keyword = {"estate": "estate",
 region_to_country = {region: country for country in country_to_region.keys() for region in country_to_region[country]}
 
 # country or states
-country_state = ["california", "oregon", "new york", "washington", "south africa", "argentina", "new zealand", "chile", "australia", "loire", "alsace"]
+country_state = ["california", "oregon", "new york", "washington", "south africa", "argentina", "new zealand", "chile", "australia", "loire", "alsace", "italy", "france"]
 state = ['california', 'oregon', 'new york', 'washington']
 
 # common error words that should be ignored

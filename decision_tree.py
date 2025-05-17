@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 from sklearn import tree
 from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import cross_val_score, train_test_split
+from sklearn.metrics import accuracy_score, confusion_matrix
 import csv
 import sys
 import joblib
@@ -59,6 +61,19 @@ Y = df[['result']]
 
 def decision_tree_train():
     dtree = DecisionTreeClassifier()
+
+    # --- Cross-Validation (5-fold) ---
+    print("Performing 5-fold Cross Validation...")
+    scores = cross_val_score(dtree, X, Y, cv=5, scoring='accuracy')
+
+    # Display results
+    print("\nCross-Validation Scores:")
+    for i, score in enumerate(scores):
+        print(f"Fold {i + 1}: {score * 100:.2f}%")
+
+    print(f"\nAverage Accuracy: {np.mean(scores) * 100:.2f}%")
+    print(f"Standard Deviation: {np.std(scores) * 100:.2f}%")
+
     dtree = dtree.fit(X, Y)
     joblib.dump(dtree, './models/decision_tree_model.pkl')
 
