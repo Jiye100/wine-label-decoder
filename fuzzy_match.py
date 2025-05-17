@@ -86,21 +86,28 @@ def fuzzy_matching_grapes(result, country=None):
         text = text.lower()
 
         # ignore common errors or short text
-        if text in common_error or len(text) < 4:
+        if text in common_error or len(text.replace(' ', '')) < 4:
             continue
 
         # find the best match
         choice, score, _ = process.extractOne(text, grape_variety)
 
+        # print("text", text)
+        # print("choice", choice, f"({score}%)\n")
+
         if choice == 'cabernet':
             if score > 85:
                 cabernet = True
         elif choice == 'sauvignon':
-            sauvignon = True
-        elif len(choice) * 0.7 < len(text) and best_score < score:
+            if score > 85:
+                sauvignon = True
+        elif len(max(text, choice)) * 0.7 < len(max(text, choice)) and best_score < score:
             best_match = choice
             best_score = score
             matching_text = text
+
+        if best_match == 'cabernet sauvignon' and best_score > 85:
+            cabernet, sauvignon = True, True
 
     if cabernet and sauvignon:
         best_match = 'cabernet sauvignon'
@@ -141,7 +148,7 @@ def fuzzy_matching_regions(result):
         text = text.lower()
 
         # ignore common errors or grape varieties or short text
-        if text in common_error or text in grape_variety or len(text) < 4:
+        if text in common_error or text in grape_variety or len(text.replace(' ', '')) < 4:
             continue
 
         # find best match using token set ratio and partial ratio
@@ -171,7 +178,7 @@ def fuzzy_matching_regions(result):
                 matching_text = text
                 break
 
-        if len(choice) * 0.7 < len(text) and best_score < score:
+        if len(max(text, choice)) * 0.7 < len(max(text, choice)) and best_score < score:
             best_match = choice
             best_score = score
             matching_text = text
@@ -188,7 +195,7 @@ def fuzzy_matching_country(result):
         text = text.lower()
 
         # ignore common errors or grape varieties or short text
-        if text in common_error or text in grape_variety or len(text) < 4:
+        if text in common_error or text in grape_variety or len(text.replace(' ', '')) < 4:
             continue
 
         # find best match
