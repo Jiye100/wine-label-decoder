@@ -2,337 +2,455 @@ img1
 grape: malbec
 region: mendoza
 country: argentina
+keyword: reserve
 
 img2
 grape: viognier
 region: mclaren vale
 country: australia
+keyword:
 
 img3
 grape: cabernet sauvignon
 region: napa valley
 country: california
+keyword:
 
 img4
 grape: malbec
 region: mendoza
 country: argentina
+keyword: estate
 
 img5
 grape: cabernet sauvignon
 region: mendoza
 country: argentina
+keyword:
 
 img6
 grape: chardonnay
 region: napa valley
 country: california
+keyword: reserve
 
 img7
 grape: riesling
+region:
 country: australia
+keyword:
 
 img8
 grape: zinfandel
 region: paso robles
 country: california
+keyword:
 
 img9
 grape: shiraz 
 region: barossa valley
 country: australia
+keyword:
 
 img10
 grape: cabernet sauvignon
+region:
 country: california
+keyword:
 
 img11
 grape: cabernet sauvignon
 region: stellenbosch
 country: south africa
+keyword:
 
 img12
 grape: pinot noir
 region: marlborough
+country: new zealand
+keyword:
 
 img13
 grape: cabernet sauvignon
 region: napa valley
+country: california
+keyword:
 
 img14
 grape: cabernet sauvignon
 region: north fork of long island
 country: new york
+keyword:
 
 img15
 grape: pinot noir
 region: mendoza
 country: argentina
+keyword:
 
 img16
 grape: chardonnay
-region: russian river valley (sonoma county)
+region: sonoma county
+country: california
+keyword:
 
 img17
 grape: pinot gris
 region: willamette valley
 country: oregon
+keyword:
 
 img18
 grape: pinot noir
 region: central otago
 country: new zealand
+keyword:
 
 img19
 grape: chardonnay
 region: margaret river
 country: australia
+keyword: estate
 
 img20
 grape: sauvignon blanc
 region: marlborough
+country: new zealand
+keyword:
 
 img21
 grape: chardonnay
-region: russian river valley (sonoma county)
+region: russian river valley
+country: california
+keyword:
 
 img22
 grape: zinfandel
 region: paso robles
+country: california
+keyword:
 
 img23
 grape: zinfandel
+region:
 country: california
+keyword:
 
 img24
 grape: cabernet sauvignon
 region: napa valley
+country: california
+keyword: estate
 
 img25
 grape: sauvignon blanc
 region: napa valley
+country: california
+keyword:
 
 img26
 grape: sauvignon blanc
-region: alexander valley (sonoma county)
+region: alexander valley
+country: california
+keyword: estate
 
 img27
 grape: chardonnay
-region: russian river valley (sonoma county)
+region: sonoma county
+country: california
+keyword:
 
 img28
 grape: malbec
+region:
 country: argentina
+keyword: reserve
 
 img29
 grape: malbec
 region: mendoza
 country: argentina
+keyword:
 
 img30
 grape: pinot noir
+region: monterey county
 country: california
+keyword:
 
 img31
 grape: cabernet sauvignon
 region: napa valley
+country: california
+keyword: reserve
 
 img32
 grape: torrentes
 region: salta
 country: argentina
+keyword:
 
 img33
 grape: sauvignon blanc
 region: marlborough
 country: new zealand
+keyword:
 
 img34
 grape: cabernet sauvignon
 region: napa valley
+country: california
+keyword:
 
 img35
 grape: pinot noir
+region:
 country: california
+keyword:
 
 img36
 grape: merlot
 region: napa valley
+country: california
+keyword:
 
 img37
 grape: shiraz
 region: adelaide hills
+country: australia
+keyword:
 
 img38
 grape: zinfandel
 region: paso robles
 country: california
+keyword:
 
 img39
 grape: riesling
-region: monterey
+region: monterey county
 country: california
+keyword:
 
 img40
 grape: cabernet sauvignon
-region: mendocino county
+region: mendocino
+country: california
+keyword:
 
 img41
 grape: cabernet sauvignon
 region: napa valley
+country: california
+keyword:
 
 img42
 grape: chardonnay
 region: dundee hills
+country: oregon
+keyword: estate
 
 img43
 grape: pinot gris
 region: willamette valley
+country: oregon
+keyword:
 
 img44
 grape: chardonnay
-region: monterey county, santa barbara county
+region: santa barbara county
+country: california
+keyword: estate reserve
 
 img45
 grape: pinot noir
 region: santa barbara county
+country: california
+keyword:
 
 img46
 grape: malbec
 region: san juan
 country: argentina
+keyword: reserve
 
 img47
 grape: cabernet sauvignon
 region: columbia valley
+country: washington
+keyword:
 
 img48
 grape: riesling
+region:
 country: washington
+keyword:
 
 img49
 grape: pinot noir
 region: marlborough
 country: new zealand
+keyword:
 
 img50
 grape: cabernet sauvignon
 region: alexander valley
+country: california
+keyword:
 
 img51
 grape: pinot noir
 region: willamette valley
+country: oregon
+keyword:
 
 img52
 grape: cabernet sauvignon
 region: sonoma county
+country: california
+keyword:
 
 img53
 grape: shiraz
+region:
 country: australia
+keyword:
 
 img54
 grape: cabernet sauvignon
 region: napa valley
+country: california
+keyword:
 
 img55
 grape: chardonnay
 region: napa valley
+country: california
+keyword: reserve
 
 img56
 grape: pinotage
 region: stellenbosch
 country: south africa
+keyword: estate
 
 img57
 grape: pinotage
-region: western cape, stellenbosch
+region: western cape
 country: south africa
+keyword:
 
 img58
 grape: cabernet sauvignon
 region: napa valley
 country: california
+keyword:
 
 img59
 grape: pinot noir
 region: central otago
 country: new zealand
+keyword:
 
 img60
 grape: sauvignon blanc
 region: marlborough
 country: new zealand
+keyword:
 
 img61
 grape: sauvignon blanc
 region: marlborough
 country: new zealand
+keyword:
 
 img62
 grape: pinot noir
 region: marlborough
 country: new zealand
+keyword:
 
 img63
 grape: sauvignon blanc
 region: marlborough
 country: new zealand
+keyword:
 
 img64
 grape: pinot noir
 region: willamette valley
+country: oregon
+keyword:
 
 img65
 grape: pinot noir
 region: willamette valley
+country: oregon
+keyword:
 
 img66
 grape: malbec
 region: mendoza
 country: argentina
+keyword:
 
 img67
 grape: merlot
+region:
 country: washington
+keyword:
 
 img68
 grape: malbec
 region: mendoza
 country: argentina
+keyword:
 
 img69
 grape: riesling
 region: yakima valley
+country: washington
+keyword:
 
 img70
 grape: chardonnay
-region: curico valley?
+region: curico valley
 country: chile
+keyword: d.o.
 
 img71
 grape: carmenere
+region:
 country: chile
+keyword: d.o.
 
 img72
 grape: torrentes
 region: mendoza
 country: argentina
+keyword:
 
 img73
 grape: pinot noir
 region: willamette valley
 country: oregon
+keyword:
 
 img74
 grape: chardonnay
 region: columbia valley
+country: washington
+keyword:
 
 img75
 grape: merlot
 region: columbia valley
+country: washington
+keyword:
 
 img76
 grape: cabernet sauvignon
 region: walla walla valley
 country: washington
+keyword:
+
