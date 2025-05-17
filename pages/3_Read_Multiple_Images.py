@@ -12,7 +12,6 @@ import numpy as np
 # ========================
 # 🚀 Caching Expensive Operations
 # ========================
-
 @st.cache_resource
 def load_reader():
     """Loads the EasyOCR reader (cached for efficiency)."""
@@ -26,7 +25,6 @@ def load_model():
 # ========================
 # 📂 Batch Processing Logic
 # ========================
-
 def ocr_on_batch_of_images(uploaded_files):
     """Runs OCR on a batch of uploaded images."""
     reader = load_reader()
@@ -63,9 +61,9 @@ def extract_and_predict(results):
         # Store the result
         final_results.append({
             "File": filename,
-            "Grape": grape,
-            "Region": region,
-            "Country": country,
+            "Grape": grape.title(),
+            "Region": region.title(),
+            "Country": country.title(),
             "Designation": designation,
             "Grape Law": f"{grape_law}%",
             "Region Law": f"{region_law}%",
@@ -109,16 +107,14 @@ st.set_page_config(page_title="Batch Wine Label Processing", page_icon="🍷", l
 
 st.title("🍷 Wine Label Batch Processor")
 
-# ========== Sidebar Options ==========
-st.sidebar.header("Batch Processing Configuration")
-pytesseract_path = st.sidebar.text_input("Pytesseract Path (Optional):")
+st.write("Upload multiple wine label images for batch processing.")
 
 # ========== Upload Files ==========
-uploaded_files = st.file_uploader("Upload Multiple Wine Label Images", accept_multiple_files=True, type=["png", "jpg", "jpeg"])
+uploaded_files = st.file_uploader("Choose multiple images", accept_multiple_files=True, type=["png", "jpg", "jpeg"])
 
 # ========== Run OCR and Prediction ==========
 if uploaded_files:
-    if st.button("Run Batch OCR"):
+    if st.button("🔍 Run Batch OCR and Prediction"):
         with st.spinner("Processing images..."):
             results = ocr_on_batch_of_images(uploaded_files)
             final_results = extract_and_predict(results)
@@ -128,11 +124,11 @@ if uploaded_files:
 if 'final_results' in locals():
     st.subheader("Batch Processing Results")
     for result in final_results:
-        st.markdown(f"**{result['File']}**")
-        st.write(f"**Grape:** {result['Grape']}")
-        st.write(f"**Region:** {result['Region']}")
-        st.write(f"**Country:** {result['Country']}")
-        st.write(f"**Designation:** {result['Designation']}")
+        st.markdown(f"**📂 File:** {result['File']}")
+        st.write(f"**🍇 Grape Variety:** {result['Grape']}")
+        st.write(f"**📍 Region:** {result['Region']}")
+        st.write(f"**🌎 Country:** {result['Country']}")
+        st.write(f"**🏷️ Designation:** {result['Designation']}")
         st.write(f"🍇 **Grape Law:** {result['Grape Law']}")
         st.write(f"📍 **Region Law:** {result['Region Law']}")
         st.write(f"🗓️ **Vintage Law:** {result['Vintage Law']}")
