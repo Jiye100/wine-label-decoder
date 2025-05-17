@@ -155,6 +155,7 @@ if st.session_state.parsed_data:
     
     if keyword:
         st.write(f"**Keywords Detected:** {keyword}")
+            
 
     # Run prediction
     grape_law, region_law, vintage_law = predict_labeling_laws(grape, region, country, designation)
@@ -163,6 +164,8 @@ if st.session_state.parsed_data:
     st.write(f"🍇 **{grape_law}%** of the grapes must be **{grape.title()}**")
     st.write(f"📍 **{region_law}%** of the grapes must come from **{region.title()}**")
     st.write(f"🗓️ **{vintage_law}%** of the grapes must be from the stated vintage")
+    if 'estate' in keyword:
+        st.write(f"🌾 **100%** of the grapes must be from the listed estate")
 
     # --- Generate Description if not cached ---
     if st.session_state.generative_description is None:
