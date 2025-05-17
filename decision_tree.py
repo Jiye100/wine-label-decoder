@@ -4,6 +4,11 @@ from sklearn import tree
 from sklearn.tree import DecisionTreeClassifier
 import csv
 import sys
+import joblib
+import json
+
+Config = json.load(open('./Config.json'))
+
 
 # Get the training data
 ny_or_wa_df = pd.read_csv(r'dataset/NY_OR_WA_wines.csv')
@@ -16,8 +21,14 @@ df = pd.concat([ny_or_wa_df, ca_df, cl_arg_za_df, nz_au_df], ignore_index=True)
 
 # Assigning category value to integer
 region = set(df['region'])
+for reg in Config["regions"]:
+    region.add(reg)
 grape = set(df['grape'])
+for grap in Config["grape_variety"]:
+    grape.add(grap)
 country = set(df['country'])
+for c in Config["country"]:
+    country.add(c)
 designation = set(df['designation'])
 result = set(zip(df['grape_law'], df['region_law'], df['vintage_law']))
 
@@ -29,50 +40,29 @@ result_mp = {tup : str(idx) for idx, tup in enumerate(result)}
 
 idx2result = {str(idx): tup for tup, idx in result_mp.items()}
 
+df['region'] = df['region'].map(region_mp)
+df['grape'] = df['grape'].map(grape_mp)
+df['country'] = df['country'].map(country_mp)
+df['designation'] = df['designation'].map(designation_mp)
+df['result'] = df.apply(lambda row: result_mp.get((row['grape_law'], row['region_law'], row['vintage_law']), 'None'), axis=1)
 
-# I added the function so it doesnt run this code from the main
+# print(df.head())
+# Removing useless columns
+df = df.drop(df.columns[6], axis = 1)
+df = df.drop(df.columns[5], axis = 1)
+df = df.drop(df.columns[4], axis = 1)
+df = df.drop(df.columns[3], axis = 1)
+
+# Decision Tree
+X = df[['grape', 'region', 'country', 'designation']]
+Y = df[['result']]
+
 def decision_tree_train():
-    df['region'] = df['region'].map(region_mp)
-    df['grape'] = df['grape'].map(grape_mp)
-    df['country'] = df['country'].map(country_mp)
-    df['designation'] = df['designation'].map(designation_mp)
-    df['result'] = df.apply(lambda row: result_mp.get((row['grape_law'], row['region_law'], row['vintage_law']), 'None'), axis=1)
-
-    # print(df.head())
-    # Removing useless columns
-    df = df.drop(df.columns[6], axis = 1)
-    df = df.drop(df.columns[5], axis = 1)
-    df = df.drop(df.columns[4], axis = 1)
-    df = df.drop(df.columns[3], axis = 1)
-
-    # Decision Tree
-    X = df[['grape', 'region', 'country', 'designation']]
-    Y = df[['result']]
-
     dtree = DecisionTreeClassifier()
     dtree = dtree.fit(X, Y)
-    joblib.dump(dtree, 'decision_tree_model.pkl')
+    joblib.dump(dtree, './models/decision_tree_model.pkl')
 
-
-# Testing decision tree model
-# TODO
-#X_new = pd.DataFrame([[2, 21, 1, 2]], columns=['grape', 'region', 'country', 'designation'])
-#print(dtree.predict(X_new))
-'''
-def predict_law(df):
-    df['region'] = df['region'].map(region_mp)
-    df['grape'] = df['grape'].map(grape_mp)
-    df['country'] = df['country'].map(country_mp)
-    df['designation'] = df['designation'].map(designation_mp)
-
-    pred = dtree.predict(df)
-
-    print("prediction done")
-
-    return idx2result[pred[0]]
-
-'''
-def predict_law(df):
+def predict_law(input_df):
     """
     Predicts the grape, region, and vintage law based on the attributes.
     
@@ -83,25 +73,25 @@ def predict_law(df):
     tuple: (grape_law, region_law, vintage_law)
     """
     # --- Check if the input is a DataFrame ---
-    if not isinstance(df, pd.DataFrame):
+    if not isinstance(input_df, pd.DataFrame):
         raise ValueError("Input must be a DataFrame with columns: ['grape', 'region', 'country', 'designation']")
     
     # --- Map the values to their indices ---
-    df['grape'] = df['grape'].map(grape_mp)
-    df['region'] = df['region'].map(region_mp)
-    df['country'] = df['country'].map(country_mp)
-    df['designation'] = df['designation'].map(designation_mp)
+    input_df['grape'] = input_df['grape'].map(grape_mp)
+    input_df['region'] = input_df['region'].map(region_mp)
+    input_df['country'] = input_df['country'].map(country_mp)
+    input_df['designation'] = input_df['designation'].map(designation_mp)
 
     # --- If mapping failed for any column, raise an error ---
-    if df.isnull().values.any():
-        raise ValueError("One or more values not found in mappings.")
+    if input_df.isnull().values.any():
+        return (0, 0, 0)
 
     # --- Make the prediction ---
-    pred = dtree.predict(df)
+    model = joblib.load('models/decision_tree_model.pkl')
+    pred = model.predict(input_df)
 
     # --- Map back to the result tuple ---
     if pred[0] in idx2result:
-        #print(f"Prediction for input: {idx2result[pred[0]]}")
         return idx2result[pred[0]]
     else:
-        raise ValueError(f"Prediction resulted in an unknown label: {pred[0]}")
+        return (0, 0, 0)

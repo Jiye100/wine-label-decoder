@@ -21,12 +21,11 @@ def main():
   parser.add_argument('--path', type=str, help='Input the path to the folder from this root directory')
   parser.add_argument('--pytesseract', type=str, help='Insert the path of your pytesseract from your device')
   parser.add_argument('--train', action='store_true', help='Train and save decision tree model')
+
   # Parse the arguments
   args = parser.parse_args()
 
   if args.train:
-    # TODO
-    # Should we split decision tree to train and predict? or we gonna train everytime right before predict?
     decision_tree.decision_tree_train()
     print("Done training decision tree")
     return
@@ -45,37 +44,31 @@ def main():
 
     print(dashes)
     print("Performing fuzzy matching")
-    grape_list = []
-    region_list = []
-    country_list = []
-    designation_list = []
-    for file in tqdm(os.listdir(Config['OCR_result']), desc="Extracting text from OCR images"):
-        # TODO
-        # Convert each text into valid word and then create a pandas table to put in decision tree
-        text = []
-        for line in file:
-            text.append(line.strip())
-    
-    test_label = pd.DataFrame({'grape': grape_list, 'region': region_list, 'country': country_list, 'designation': designation_list})
-    
-    # Load the trained model
-    model = joblib.load('models/decision_tree_model.pkl')
-    prediction = model.predict(test_label)
-
+    prediction = []
+    for filename in tqdm(os.listdir(Config['OCR_result']), desc="Extracting text from OCR images"):
+        file_path = os.path.join(Config['OCR_result'], filename)
+        with open(file_path, 'r') as f:
+            text = f.read().splitlines()
+        grape, region, country, keyword = fuzzy_match.extract_info(text)
+        if len(keyword) == 0:
+            keyword.add("Unknown")
+        test_label = pd.DataFrame({'grape': [grape], 'region': [region], 'country': [country], 'designation': [list(keyword)[0]]})
+        grape_law, region_law, vintage_law = decision_tree.predict_law(test_label)
+        prediction.append((grape_law, region_law, vintage_law, grape, country))
     print(dashes)
     print("Generating a description for each wine")
     to_write = open('./result/' + "description.txt", 'w')
+    i = 0
     for result in prediction:
-        grape_law, region_law, vintage_law = decision_tree.predict_law(test_label)
+        grape_law, region_law, vintage_law, grape, country = result
         grape_law, region_law, vintage_law = grape_law * 100, region_law * 100, vintage_law * 100
-        to_write.write(f"Image number " + {i} + "\n")
-        to_write.write(f"{grape_law}% of the grape must be {grape}, {region_law}% of the grape must come from the stated region, {vintage_law}% of the grape must come from the stated vintage\n")
-        # TODO need a name and a region
-        generated_text = generate_wine_description(name, region)
-        to_write.write(generated_text + "\n\n")
-
-    print("worked")
-    return
+        
+        to_write.write(f"Image number " + str(i) + "\n")
+        if grape_law == region_law == vintage_law == 0:
+            to_write.write(f"The grape variety is {grape} and it's from the country {country}\n\n")
+        else:
+            to_write.write(f"{grape_law}% of the grape must be {grape}, {region_law}% of the grape must come from the stated region, {vintage_law}% of the grape must come from the stated vintage\n\n")
+        i += 1
   else:
     status = 'C'
     print("hey")

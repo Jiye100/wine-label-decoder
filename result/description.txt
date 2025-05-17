@@ -1,0 +1,6 @@
+Image number 0
+The grape variety is malbec and it's from the country argentina
+
+Image number 1
+The grape variety is viognier and it's from the country australia
+
